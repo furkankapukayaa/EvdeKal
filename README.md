@@ -8,3 +8,6 @@ Sistem tarih ve saatine entegre olarak çalışmaktadır.<br>
 
 # Uygulama İçi Görüntüler
 ![Uygulama](https://i.hizliresim.com/BhgH2j.png)
+
+# Uygulama Setup Linki
+[İndirmek İçin Tıklayınız !](https://drive.google.com/file/d/1b95-DSehwEcnm9VeajOCttJGQNDJjpt2/view?usp=sharing)
