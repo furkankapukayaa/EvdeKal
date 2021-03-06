@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8281AB56-2D08-482E-B8FA-2F5691437FC8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>evdekall</RootNamespace>
+    <AssemblyName>evdekall</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="altmisbesuzeri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="altmisbesuzeri.Designer.cs">
+      <DependentUpon>altmisbesuzeri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="anamenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="anamenu.Designer.cs">
+      <DependentUpon>anamenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="asitablo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="asitablo.Designer.cs">
+      <DependentUpon>asitablo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="butonuyakala.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="butonuyakala.Designer.cs">
+      <DependentUpon>butonuyakala.cs</DependentUpon>
+    </Compile>
+    <Compile Include="evdesporyapmak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="evdesporyapmak.Designer.cs">
+      <DependentUpon>evdesporyapmak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="giris.Designer.cs">
+      <DependentUpon>giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="koronahaber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="koronahaber.Designer.cs">
+      <DependentUpon>koronahaber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="koronatablo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="koronatablo.Designer.cs">
+      <DependentUpon>koronatablo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oyun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oyun.Designer.cs">
+      <DependentUpon>oyun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="profil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="profil.Designer.cs">
+      <DependentUpon>profil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="saglik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="saglik.Designer.cs">
+      <DependentUpon>saglik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="spor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="spor.Designer.cs">
+      <DependentUpon>spor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="vki.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vki.Designer.cs">
+      <DependentUpon>vki.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yirmibirvealtmisdortarasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yirmibirvealtmisdortarasi.Designer.cs">
+      <DependentUpon>yirmibirvealtmisdortarasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yirmiyasalti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yirmiyasalti.Designer.cs">
+      <DependentUpon>yirmiyasalti.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="altmisbesuzeri.resx">
+      <DependentUpon>altmisbesuzeri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="anamenu.resx">
+      <DependentUpon>anamenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="asitablo.resx">
+      <DependentUpon>asitablo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="butonuyakala.resx">
+      <DependentUpon>butonuyakala.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="evdesporyapmak.resx">
+      <DependentUpon>evdesporyapmak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="giris.resx">
+      <DependentUpon>giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="koronahaber.resx">
+      <DependentUpon>koronahaber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="koronatablo.resx">
+      <DependentUpon>koronatablo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oyun.resx">
+      <DependentUpon>oyun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profil.resx">
+      <DependentUpon>profil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="saglik.resx">
+      <DependentUpon>saglik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="spor.resx">
+      <DependentUpon>spor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vki.resx">
+      <DependentUpon>vki.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yirmibirvealtmisdortarasi.resx">
+      <DependentUpon>yirmibirvealtmisdortarasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yirmiyasalti.resx">
+      <DependentUpon>yirmiyasalti.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coronavirus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kucult.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saglik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newClose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newKucult.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newProfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serbest.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yasak.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
