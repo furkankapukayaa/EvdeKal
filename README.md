@@ -10,4 +10,5 @@ Sistem tarih ve saatine entegre olarak çalışmaktadır.<br>
 ![Uygulama](https://i.hizliresim.com/BhgH2j.png)
 
 # Uygulama Setup Linki
+Uygulama geliştirmeleri devam ediyor, demo versiyondur.
 [İndirmek İçin Tıklayınız !](https://drive.google.com/file/d/1b95-DSehwEcnm9VeajOCttJGQNDJjpt2/view?usp=sharing)
