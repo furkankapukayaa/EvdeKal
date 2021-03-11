@@ -58,6 +58,7 @@ namespace evdekall
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Butonu Yakala";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.butonuyakala_FormClosed);
+            this.Load += new System.EventHandler(this.butonuyakala_Load);
             this.ResumeLayout(false);
 
         }

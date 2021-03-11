@@ -117,7 +117,7 @@ namespace evdekall
             // cikis
             // 
             this.cikis.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cikis.Image = global::evdekall.Properties.Resources.newClose;
+            this.cikis.Image = global::evdekall.Properties.Resources.newBack;
             this.cikis.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.cikis.Location = new System.Drawing.Point(434, 27);
             this.cikis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

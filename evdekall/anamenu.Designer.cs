@@ -39,7 +39,6 @@ namespace evdekall
             this.evdekal = new System.Windows.Forms.Label();
             this.baslik = new System.Windows.Forms.Label();
             this.KoronaHaber = new System.Windows.Forms.Button();
-            this.baslik2 = new System.Windows.Forms.Label();
             this.AltmisBesUzeri = new System.Windows.Forms.Button();
             this.YirmiBirAltmisDortArasi = new System.Windows.Forms.Button();
             this.YirmiYasAlti = new System.Windows.Forms.Button();
@@ -47,12 +46,12 @@ namespace evdekall
             this.tarih = new System.Windows.Forms.Label();
             this.cikis = new System.Windows.Forms.PictureBox();
             this.profil = new System.Windows.Forms.PictureBox();
-            this.corona = new System.Windows.Forms.PictureBox();
             this.kucult = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.cikis)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.profil)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.corona)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kucult)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button6
@@ -85,7 +84,7 @@ namespace evdekall
             this.mmt.Font = new System.Drawing.Font("Calibri", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.mmt.ForeColor = System.Drawing.Color.Green;
             this.mmt.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.mmt.Location = new System.Drawing.Point(372, 82);
+            this.mmt.Location = new System.Drawing.Point(379, 258);
             this.mmt.Name = "mmt";
             this.mmt.Size = new System.Drawing.Size(232, 26);
             this.mmt.TabIndex = 51;
@@ -115,7 +114,7 @@ namespace evdekall
             this.evdekal.Font = new System.Drawing.Font("Calibri", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.evdekal.ForeColor = System.Drawing.Color.Red;
             this.evdekal.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.evdekal.Location = new System.Drawing.Point(439, 59);
+            this.evdekal.Location = new System.Drawing.Point(446, 235);
             this.evdekal.Name = "evdekal";
             this.evdekal.Size = new System.Drawing.Size(100, 26);
             this.evdekal.TabIndex = 47;
@@ -126,7 +125,7 @@ namespace evdekall
             this.baslik.AutoSize = true;
             this.baslik.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.baslik.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.baslik.Location = new System.Drawing.Point(380, 32);
+            this.baslik.Location = new System.Drawing.Point(387, 208);
             this.baslik.Name = "baslik";
             this.baslik.Size = new System.Drawing.Size(222, 29);
             this.baslik.TabIndex = 46;
@@ -145,18 +144,6 @@ namespace evdekall
             this.KoronaHaber.Text = "Korona Virüs Haberleri";
             this.KoronaHaber.UseVisualStyleBackColor = true;
             this.KoronaHaber.Click += new System.EventHandler(this.KoronaHaber_Click);
-            // 
-            // baslik2
-            // 
-            this.baslik2.AutoSize = true;
-            this.baslik2.Font = new System.Drawing.Font("Chaparral Pro", 24F);
-            this.baslik2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.baslik2.Location = new System.Drawing.Point(341, 354);
-            this.baslik2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.baslik2.Name = "baslik2";
-            this.baslik2.Size = new System.Drawing.Size(324, 38);
-            this.baslik2.TabIndex = 43;
-            this.baslik2.Text = "DIŞARI KİM ÇIKIYOR ?";
             // 
             // AltmisBesUzeri
             // 
@@ -221,7 +208,7 @@ namespace evdekall
             this.tarih.AutoSize = true;
             this.tarih.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tarih.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.tarih.Location = new System.Drawing.Point(380, 158);
+            this.tarih.Location = new System.Drawing.Point(359, 335);
             this.tarih.Name = "tarih";
             this.tarih.Size = new System.Drawing.Size(178, 25);
             this.tarih.TabIndex = 39;
@@ -256,18 +243,6 @@ namespace evdekall
             this.profil.TabStop = false;
             this.profil.Click += new System.EventHandler(this.profil_Click);
             // 
-            // corona
-            // 
-            this.corona.Image = global::evdekall.Properties.Resources.coronavirus;
-            this.corona.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.corona.Location = new System.Drawing.Point(385, 227);
-            this.corona.Margin = new System.Windows.Forms.Padding(4);
-            this.corona.Name = "corona";
-            this.corona.Size = new System.Drawing.Size(207, 101);
-            this.corona.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.corona.TabIndex = 49;
-            this.corona.TabStop = false;
-            // 
             // kucult
             // 
             this.kucult.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -282,23 +257,32 @@ namespace evdekall
             this.kucult.TabStop = false;
             this.kucult.Click += new System.EventHandler(this.kucult_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::evdekall.Properties.Resources.evdekala;
+            this.pictureBox1.Location = new System.Drawing.Point(345, 61);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(304, 122);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 56;
+            this.pictureBox1.TabStop = false;
+            // 
             // anamenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 500);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.cikis);
             this.Controls.Add(this.panel);
             this.Controls.Add(this.profil);
             this.Controls.Add(this.mmt);
             this.Controls.Add(this.hareket);
-            this.Controls.Add(this.corona);
             this.Controls.Add(this.kucult);
             this.Controls.Add(this.evdekal);
             this.Controls.Add(this.baslik);
             this.Controls.Add(this.KoronaHaber);
-            this.Controls.Add(this.baslik2);
             this.Controls.Add(this.AltmisBesUzeri);
             this.Controls.Add(this.YirmiBirAltmisDortArasi);
             this.Controls.Add(this.YirmiYasAlti);
@@ -312,8 +296,8 @@ namespace evdekall
             this.Load += new System.EventHandler(this.anamenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cikis)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.profil)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.corona)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kucult)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -328,17 +312,16 @@ namespace evdekall
         private System.Windows.Forms.Label mmt;
         private System.Windows.Forms.Panel hareket;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.PictureBox corona;
         private System.Windows.Forms.PictureBox kucult;
         private System.Windows.Forms.Label evdekal;
         private System.Windows.Forms.Label baslik;
         private System.Windows.Forms.Button KoronaHaber;
-        private System.Windows.Forms.Label baslik2;
         private System.Windows.Forms.Button AltmisBesUzeri;
         private System.Windows.Forms.Button YirmiBirAltmisDortArasi;
         private System.Windows.Forms.Button YirmiYasAlti;
         private System.Windows.Forms.Button KoronaTablo;
         private System.Windows.Forms.Label tarih;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

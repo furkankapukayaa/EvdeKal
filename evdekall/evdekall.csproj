@@ -245,5 +245,11 @@
   <ItemGroup>
     <None Include="Resources\yasak.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evdekala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newBack.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

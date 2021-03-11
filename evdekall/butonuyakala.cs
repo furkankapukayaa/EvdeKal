@@ -26,12 +26,12 @@ namespace evdekall
         }
 
         Random r = new Random();
-        int boyut = 50;
+        int boyut = 25;
         private void button1_MouseHover(object sender, EventArgs e)
         {
             boyut += -1;
-            yakala.Top = r.Next(0, this.Height - 50);
-            yakala.Left = r.Next(0, this.Width - 50);
+            yakala.Top = r.Next(0, this.Height - 5);
+            yakala.Left = r.Next(0, this.Width - 5);
             yakala.Width = boyut;
             yakala.Height = boyut;
         }
@@ -42,5 +42,10 @@ namespace evdekall
             oyun.Show();
         }
 
+        private void butonuyakala_Load(object sender, EventArgs e)
+        {
+            FormBorderStyle = FormBorderStyle.None;
+            WindowState = FormWindowState.Maximized;
+        }
     }
 }

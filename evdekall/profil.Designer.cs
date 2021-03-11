@@ -34,14 +34,14 @@ namespace evdekall
             this.yas = new System.Windows.Forms.TextBox();
             this.adsoyad = new System.Windows.Forms.TextBox();
             this.izinsorgu = new System.Windows.Forms.Button();
+            this.hareket = new System.Windows.Forms.Panel();
+            this.panel = new System.Windows.Forms.Panel();
             this.cikis = new System.Windows.Forms.PictureBox();
             this.kucult = new System.Windows.Forms.PictureBox();
             this.spor = new System.Windows.Forms.PictureBox();
             this.oyun = new System.Windows.Forms.PictureBox();
             this.saglik = new System.Windows.Forms.PictureBox();
             this.profilfoto = new System.Windows.Forms.PictureBox();
-            this.hareket = new System.Windows.Forms.Panel();
-            this.panel = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.cikis)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kucult)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.spor)).BeginInit();
@@ -93,10 +93,33 @@ namespace evdekall
             this.izinsorgu.UseVisualStyleBackColor = true;
             this.izinsorgu.Click += new System.EventHandler(this.izinsorgu_Click);
             // 
+            // hareket
+            // 
+            this.hareket.BackColor = System.Drawing.Color.Red;
+            this.hareket.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.hareket.Location = new System.Drawing.Point(-2, -1);
+            this.hareket.Margin = new System.Windows.Forms.Padding(4);
+            this.hareket.Name = "hareket";
+            this.hareket.Size = new System.Drawing.Size(507, 22);
+            this.hareket.TabIndex = 61;
+            this.hareket.MouseDown += new System.Windows.Forms.MouseEventHandler(this.hareket_MouseDown);
+            this.hareket.MouseMove += new System.Windows.Forms.MouseEventHandler(this.hareket_MouseMove);
+            this.hareket.MouseUp += new System.Windows.Forms.MouseEventHandler(this.hareket_MouseUp);
+            // 
+            // panel
+            // 
+            this.panel.BackColor = System.Drawing.Color.Red;
+            this.panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel.Location = new System.Drawing.Point(-2, 480);
+            this.panel.Margin = new System.Windows.Forms.Padding(4);
+            this.panel.Name = "panel";
+            this.panel.Size = new System.Drawing.Size(507, 22);
+            this.panel.TabIndex = 62;
+            // 
             // cikis
             // 
             this.cikis.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cikis.Image = global::evdekall.Properties.Resources.newClose;
+            this.cikis.Image = global::evdekall.Properties.Resources.newBack;
             this.cikis.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.cikis.Location = new System.Drawing.Point(458, 27);
             this.cikis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -173,29 +196,6 @@ namespace evdekall
             this.profilfoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.profilfoto.TabIndex = 18;
             this.profilfoto.TabStop = false;
-            // 
-            // hareket
-            // 
-            this.hareket.BackColor = System.Drawing.Color.Red;
-            this.hareket.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.hareket.Location = new System.Drawing.Point(-2, -1);
-            this.hareket.Margin = new System.Windows.Forms.Padding(4);
-            this.hareket.Name = "hareket";
-            this.hareket.Size = new System.Drawing.Size(507, 22);
-            this.hareket.TabIndex = 61;
-            this.hareket.MouseDown += new System.Windows.Forms.MouseEventHandler(this.hareket_MouseDown);
-            this.hareket.MouseMove += new System.Windows.Forms.MouseEventHandler(this.hareket_MouseMove);
-            this.hareket.MouseUp += new System.Windows.Forms.MouseEventHandler(this.hareket_MouseUp);
-            // 
-            // panel
-            // 
-            this.panel.BackColor = System.Drawing.Color.Red;
-            this.panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel.Location = new System.Drawing.Point(-2, 480);
-            this.panel.Margin = new System.Windows.Forms.Padding(4);
-            this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(507, 22);
-            this.panel.TabIndex = 62;
             // 
             // profil
             // 
