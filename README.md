@@ -6,7 +6,7 @@ Evde kalan vatandaşların gündemi takip etmesi, sağlığına dikkat etmesi, e
 Sistem tarih ve saatine entegre olarak çalışmaktadır.<br>
 Üzerinde geliştirmeler devam etmektedir.
 
-# Uygulama İçi Görüntüler
+# Uygulama İçi Görüntüler (Eski Görüntülerdir!)
 ![Uygulama](https://i.hizliresim.com/BhgH2j.png)
 
 # Uygulama Setup Linki
