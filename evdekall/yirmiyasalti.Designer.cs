@@ -50,9 +50,10 @@ namespace evdekall
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Calibri", 12.2F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(12, 308);
+            this.label2.Location = new System.Drawing.Point(16, 379);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(469, 42);
+            this.label2.Size = new System.Drawing.Size(573, 52);
             this.label2.TabIndex = 33;
             this.label2.Text = "NOT : Hafta sonu 12.00 - 17.00 Arası Zorunlu İhtiyaç Durumunda \r\nEvinizin Yakının" +
     "daki Eczane,Market vs. Yerlere Gidebilirsiniz. ";
@@ -62,9 +63,10 @@ namespace evdekall
             // 
             this.sonuc.AutoSize = true;
             this.sonuc.Font = new System.Drawing.Font("Trebuchet MS", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sonuc.Location = new System.Drawing.Point(10, 28);
+            this.sonuc.Location = new System.Drawing.Point(13, 34);
+            this.sonuc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.sonuc.Name = "sonuc";
-            this.sonuc.Size = new System.Drawing.Size(179, 35);
+            this.sonuc.Size = new System.Drawing.Size(217, 42);
             this.sonuc.TabIndex = 30;
             this.sonuc.Text = "Yükleniyor...";
             // 
@@ -73,10 +75,10 @@ namespace evdekall
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold);
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label1.Location = new System.Drawing.Point(11, 281);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(15, 346);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(457, 27);
+            this.label1.Size = new System.Drawing.Size(579, 35);
             this.label1.TabIndex = 29;
             this.label1.Text = "İzin Saatlerin : Hafta içi 13.00 - 16.00 Arasındadır.";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -84,9 +86,10 @@ namespace evdekall
             // yasak
             // 
             this.yasak.Image = global::evdekall.Properties.Resources.yasak;
-            this.yasak.Location = new System.Drawing.Point(184, 117);
+            this.yasak.Location = new System.Drawing.Point(245, 144);
+            this.yasak.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.yasak.Name = "yasak";
-            this.yasak.Size = new System.Drawing.Size(140, 109);
+            this.yasak.Size = new System.Drawing.Size(187, 134);
             this.yasak.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.yasak.TabIndex = 32;
             this.yasak.TabStop = false;
@@ -94,9 +97,10 @@ namespace evdekall
             // serbest
             // 
             this.serbest.Image = global::evdekall.Properties.Resources.serbest;
-            this.serbest.Location = new System.Drawing.Point(184, 117);
+            this.serbest.Location = new System.Drawing.Point(245, 144);
+            this.serbest.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.serbest.Name = "serbest";
-            this.serbest.Size = new System.Drawing.Size(140, 109);
+            this.serbest.Size = new System.Drawing.Size(187, 134);
             this.serbest.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.serbest.TabIndex = 31;
             this.serbest.TabStop = false;
@@ -105,10 +109,10 @@ namespace evdekall
             // 
             this.hareket.BackColor = System.Drawing.Color.Red;
             this.hareket.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.hareket.Location = new System.Drawing.Point(-2, -1);
-            this.hareket.Margin = new System.Windows.Forms.Padding(4);
+            this.hareket.Location = new System.Drawing.Point(-3, -1);
+            this.hareket.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.hareket.Name = "hareket";
-            this.hareket.Size = new System.Drawing.Size(492, 22);
+            this.hareket.Size = new System.Drawing.Size(655, 26);
             this.hareket.TabIndex = 51;
             this.hareket.MouseDown += new System.Windows.Forms.MouseEventHandler(this.hareket_MouseDown);
             this.hareket.MouseMove += new System.Windows.Forms.MouseEventHandler(this.hareket_MouseMove);
@@ -117,12 +121,12 @@ namespace evdekall
             // cikis
             // 
             this.cikis.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cikis.Image = global::evdekall.Properties.Resources.newBack;
+            this.cikis.Image = global::evdekall.Properties.Resources.previous;
             this.cikis.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.cikis.Location = new System.Drawing.Point(434, 27);
-            this.cikis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cikis.Location = new System.Drawing.Point(579, 33);
+            this.cikis.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.cikis.Name = "cikis";
-            this.cikis.Size = new System.Drawing.Size(36, 34);
+            this.cikis.Size = new System.Drawing.Size(48, 42);
             this.cikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.cikis.TabIndex = 56;
             this.cikis.TabStop = false;
@@ -131,12 +135,12 @@ namespace evdekall
             // kucult
             // 
             this.kucult.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.kucult.Image = global::evdekall.Properties.Resources.newKucult;
+            this.kucult.Image = global::evdekall.Properties.Resources.minimize;
             this.kucult.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.kucult.Location = new System.Drawing.Point(398, 28);
-            this.kucult.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.kucult.Location = new System.Drawing.Point(531, 34);
+            this.kucult.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.kucult.Name = "kucult";
-            this.kucult.Size = new System.Drawing.Size(30, 33);
+            this.kucult.Size = new System.Drawing.Size(40, 41);
             this.kucult.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.kucult.TabIndex = 55;
             this.kucult.TabStop = false;
@@ -144,9 +148,9 @@ namespace evdekall
             // 
             // yirmiyasalti
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(482, 359);
+            this.ClientSize = new System.Drawing.Size(643, 442);
             this.Controls.Add(this.cikis);
             this.Controls.Add(this.kucult);
             this.Controls.Add(this.hareket);
@@ -157,6 +161,7 @@ namespace evdekall
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "yirmiyasalti";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "20 Yaş Altı";

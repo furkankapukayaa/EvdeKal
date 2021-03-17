@@ -12,3 +12,16 @@ Sistem tarih ve saatine entegre olarak çalışmaktadır.<br>
 # Uygulama Setup Linki
 Uygulama geliştirmeleri devam ediyor, demo versiyondur.
 [İndirmek İçin Tıklayınız !](https://drive.google.com/file/d/1b95-DSehwEcnm9VeajOCttJGQNDJjpt2/view?usp=sharing)
+
+# 2021.03 Güncellemesi
+• Simgeler ve Resimler Değişti
+• Font Değişiklikleri
+• Form Tasarım ve Boyutlandırılması Yapıldı
+• Yeni Menü Getirildi
+• Slider Eklendi
+• Kayan Yazı Eklendi
+• Uygulama Hakkında Formu Eklendi
+• Profil Kısmında Butona Öneri Eklendi
+• Buton Yakala Oyunu Tam Ekran Yapıldı
+• AssemblyInfo Ayarları Değiştirildi
+• Haritalar Eklendi
