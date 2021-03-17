@@ -20,6 +20,7 @@ namespace evdekall
         private void anamenu_Load(object sender, EventArgs e)
         {
             timer1.Start();
+            timer2.Start();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -29,8 +30,9 @@ namespace evdekall
 
         private void cikis_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Sağlıklı Günler, Kendine Dikkat Et!", "Görüşürüz", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            Application.Exit();
+            yenimenu yenimenu = new yenimenu();
+            yenimenu.Show();
+            this.Close();
         }
 
         private void kucult_Click(object sender, EventArgs e)
@@ -46,14 +48,7 @@ namespace evdekall
             movX = e.X;
             movY = e.Y;
         }
-
-        private void profil_Click(object sender, EventArgs e)
-        {
-            profil profil = new profil();
-            profil.Show();
-            this.Close();
-        }
-
+        
         private void KoronaHaber_Click(object sender, EventArgs e)
         {
             koronahaber koronahaber = new koronahaber();
@@ -75,8 +70,8 @@ namespace evdekall
 
         private void YirmiBirAltmisDortArasi_Click(object sender, EventArgs e)
         {
-            yirmibirvealtmisdortarasi yirmibirvealtmisdortarasi = new yirmibirvealtmisdortarasi();
-            yirmibirvealtmisdortarasi.Show();
+            yirmivealtmisdortarasi yirmivealtmisdortarasi = new yirmivealtmisdortarasi();
+            yirmivealtmisdortarasi.Show();
             this.Close();
         }
 
@@ -91,6 +86,18 @@ namespace evdekall
         {
             asitablo asitablo = new asitablo();
             asitablo.Show();
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            label1.Text = label1.Text.Substring(1) + label1.Text.Substring(0, 1);
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            harita harita = new harita();
+            harita.Show();
+            this.Close();
         }
 
         private void hareket_MouseMove(object sender, MouseEventArgs e)

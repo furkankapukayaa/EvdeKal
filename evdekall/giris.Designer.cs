@@ -60,10 +60,11 @@ namespace evdekall
             // 
             // yas
             // 
-            this.yas.Location = new System.Drawing.Point(104, 305);
+            this.yas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.yas.Location = new System.Drawing.Point(107, 299);
             this.yas.Margin = new System.Windows.Forms.Padding(4);
             this.yas.Name = "yas";
-            this.yas.Size = new System.Drawing.Size(169, 20);
+            this.yas.Size = new System.Drawing.Size(169, 26);
             this.yas.TabIndex = 24;
             this.yas.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.yas_KeyPress);
             // 
@@ -80,10 +81,11 @@ namespace evdekall
             // 
             // soyad
             // 
-            this.soyad.Location = new System.Drawing.Point(104, 267);
+            this.soyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.soyad.Location = new System.Drawing.Point(107, 261);
             this.soyad.Margin = new System.Windows.Forms.Padding(4);
             this.soyad.Name = "soyad";
-            this.soyad.Size = new System.Drawing.Size(169, 20);
+            this.soyad.Size = new System.Drawing.Size(169, 26);
             this.soyad.TabIndex = 22;
             this.soyad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.soyad_KeyPress);
             // 
@@ -100,10 +102,11 @@ namespace evdekall
             // 
             // ad
             // 
-            this.ad.Location = new System.Drawing.Point(104, 231);
+            this.ad.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ad.Location = new System.Drawing.Point(107, 225);
             this.ad.Margin = new System.Windows.Forms.Padding(4);
             this.ad.Name = "ad";
-            this.ad.Size = new System.Drawing.Size(169, 20);
+            this.ad.Size = new System.Drawing.Size(169, 26);
             this.ad.TabIndex = 18;
             this.ad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ad_KeyPress);
             // 
@@ -152,7 +155,7 @@ namespace evdekall
             // cikis
             // 
             this.cikis.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cikis.Image = global::evdekall.Properties.Resources.newClose;
+            this.cikis.Image = global::evdekall.Properties.Resources.remove_button;
             this.cikis.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.cikis.Location = new System.Drawing.Point(332, 20);
             this.cikis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -166,7 +169,7 @@ namespace evdekall
             // kucult
             // 
             this.kucult.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.kucult.Image = global::evdekall.Properties.Resources.newKucult;
+            this.kucult.Image = global::evdekall.Properties.Resources.minimize;
             this.kucult.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.kucult.Location = new System.Drawing.Point(296, 20);
             this.kucult.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

@@ -45,10 +45,10 @@ namespace evdekall
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Myriad Pro Cond", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(411, 57);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(548, 70);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 25);
+            this.label1.Size = new System.Drawing.Size(80, 33);
             this.label1.TabIndex = 16;
             this.label1.Text = "SAĞLIK";
             // 
@@ -56,10 +56,10 @@ namespace evdekall
             // 
             this.hareket.BackColor = System.Drawing.Color.Red;
             this.hareket.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.hareket.Location = new System.Drawing.Point(-2, -1);
-            this.hareket.Margin = new System.Windows.Forms.Padding(4);
+            this.hareket.Location = new System.Drawing.Point(-3, -1);
+            this.hareket.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.hareket.Name = "hareket";
-            this.hareket.Size = new System.Drawing.Size(807, 22);
+            this.hareket.Size = new System.Drawing.Size(1075, 26);
             this.hareket.TabIndex = 60;
             this.hareket.MouseDown += new System.Windows.Forms.MouseEventHandler(this.hareket_MouseDown);
             this.hareket.MouseMove += new System.Windows.Forms.MouseEventHandler(this.hareket_MouseMove);
@@ -68,9 +68,10 @@ namespace evdekall
             // vkihesap
             // 
             this.vkihesap.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.vkihesap.Location = new System.Drawing.Point(28, 159);
+            this.vkihesap.Location = new System.Drawing.Point(37, 196);
+            this.vkihesap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.vkihesap.Name = "vkihesap";
-            this.vkihesap.Size = new System.Drawing.Size(194, 47);
+            this.vkihesap.Size = new System.Drawing.Size(259, 58);
             this.vkihesap.TabIndex = 61;
             this.vkihesap.Text = "Vucüt Kitle İndeksi Hesapla";
             this.vkihesap.UseVisualStyleBackColor = true;
@@ -79,12 +80,12 @@ namespace evdekall
             // cikis
             // 
             this.cikis.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cikis.Image = global::evdekall.Properties.Resources.newBack;
+            this.cikis.Image = global::evdekall.Properties.Resources.previous;
             this.cikis.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.cikis.Location = new System.Drawing.Point(758, 27);
-            this.cikis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cikis.Location = new System.Drawing.Point(1011, 33);
+            this.cikis.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.cikis.Name = "cikis";
-            this.cikis.Size = new System.Drawing.Size(30, 33);
+            this.cikis.Size = new System.Drawing.Size(40, 41);
             this.cikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.cikis.TabIndex = 59;
             this.cikis.TabStop = false;
@@ -93,12 +94,12 @@ namespace evdekall
             // kucult
             // 
             this.kucult.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.kucult.Image = global::evdekall.Properties.Resources.newKucult;
+            this.kucult.Image = global::evdekall.Properties.Resources.minimize;
             this.kucult.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.kucult.Location = new System.Drawing.Point(722, 27);
-            this.kucult.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.kucult.Location = new System.Drawing.Point(963, 33);
+            this.kucult.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.kucult.Name = "kucult";
-            this.kucult.Size = new System.Drawing.Size(30, 33);
+            this.kucult.Size = new System.Drawing.Size(40, 41);
             this.kucult.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.kucult.TabIndex = 58;
             this.kucult.TabStop = false;
@@ -106,20 +107,20 @@ namespace evdekall
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::evdekall.Properties.Resources.saglik;
-            this.pictureBox3.Location = new System.Drawing.Point(296, 29);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Image = global::evdekall.Properties.Resources.heartbeat;
+            this.pictureBox3.Location = new System.Drawing.Point(395, 36);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(107, 78);
+            this.pictureBox3.Size = new System.Drawing.Size(143, 96);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 17;
             this.pictureBox3.TabStop = false;
             // 
             // saglik
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.vkihesap);
             this.Controls.Add(this.hareket);
             this.Controls.Add(this.cikis);
@@ -128,6 +129,7 @@ namespace evdekall
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "saglik";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sağlık";
