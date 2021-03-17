@@ -10,9 +10,8 @@ Sistem tarih ve saatine entegre olarak çalışmaktadır.<br>
 ![Uygulama](https://i.hizliresim.com/BhgH2j.png)
 
 # Uygulama Setup Linki
-Uygulama geliştirmeleri devam ediyor, demo versiyondur.
-[İndirmek İçin Tıklayınız !](https://drive.google.com/file/d/1b95-DSehwEcnm9VeajOCttJGQNDJjpt2/view?usp=sharing)
-
+Uygulama geliştirmeleri devam ediyor.<br>
+[2021.03 Güncelleme Yapılmış Versiyonu İndirmek İçin Tıklayınız !](https://drive.google.com/file/d/15C17gNPYjpl_VTTJUIb8SS79uwm2ktrC/view?usp=sharing)
 # 2021.03 Güncellemesi
 • Simgeler ve Resimler Değişti<br>
 • Font Değişiklikleri<br>
