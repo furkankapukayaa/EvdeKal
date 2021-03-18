@@ -75,8 +75,8 @@ namespace evdekall
                 gonderYas = yas;
 
                 MessageBox.Show("Merhaba " + ad.ToUpper() + " " + soyad.ToUpper() + " Hoş Geldin!", "EvdeKAL!");
-                anamenu anamenu = new anamenu();
-                anamenu.Show();
+                yenimenu yenimenu = new yenimenu();
+                yenimenu.Show();
                 this.Hide();
             }
         }
@@ -98,6 +98,8 @@ namespace evdekall
 
         private void giris_Load(object sender, EventArgs e)
         {
+            ad.MaxLength = 25;
+            soyad.MaxLength = 15;
             yas.MaxLength = 3;
         }
     }

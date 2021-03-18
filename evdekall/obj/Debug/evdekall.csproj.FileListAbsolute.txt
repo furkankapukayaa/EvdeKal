@@ -22,9 +22,6 @@ C:\Users\user\source\repos\evdekall\evdekall\obj\Debug\evdekall.butonuyakala.res
 C:\Users\user\source\repos\evdekall\evdekall\obj\Debug\evdekall.evdesporyapmak.resources
 C:\Users\user\source\repos\evdekall\evdekall\obj\Debug\evdekall.vki.resources
 C:\Users\user\source\repos\evdekall\evdekall\obj\Debug\evdekall.asitablo.resources
-C:\Users\user\Desktop\EvdeKal\evdekall\bin\Debug\evdekall.exe.config
-C:\Users\user\Desktop\EvdeKal\evdekall\bin\Debug\evdekall.exe
-C:\Users\user\Desktop\EvdeKal\evdekall\bin\Debug\evdekall.pdb
 C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.csprojAssemblyReference.cache
 C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.altmisbesuzeri.resources
 C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.anamenu.resources
@@ -40,9 +37,19 @@ C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.Properties.Resources.r
 C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.saglik.resources
 C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.spor.resources
 C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.vki.resources
-C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.yirmibirvealtmisdortarasi.resources
 C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.yirmiyasalti.resources
 C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.csproj.GenerateResource.cache
 C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.csproj.CoreCompileInputs.cache
-C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.exe
-C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.pdb
+C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.yenimenu.resources
+C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.harita.resources
+C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.hakkimizda.resources
+C:\Users\user\Desktop\EvdeKal\evdekall\bin\Debug\Evde Kal.exe.config
+C:\Users\user\Desktop\EvdeKal\evdekall\bin\Debug\Evde Kal.exe.manifest
+C:\Users\user\Desktop\EvdeKal\evdekall\bin\Debug\Evde Kal.application
+C:\Users\user\Desktop\EvdeKal\evdekall\bin\Debug\Evde Kal.exe
+C:\Users\user\Desktop\EvdeKal\evdekall\bin\Debug\Evde Kal.pdb
+C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\Evde Kal.exe.manifest
+C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\Evde Kal.application
+C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\Evde Kal.exe
+C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\Evde Kal.pdb
+C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.yirmivealtmisdortarasi.resources

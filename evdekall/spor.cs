@@ -19,8 +19,8 @@ namespace evdekall
 
         private void cikis_Click(object sender, EventArgs e)
         {
-            profil profil = new profil();
-            profil.Show();
+            yenimenu yenimenu = new yenimenu();
+            yenimenu.Show();
             this.Close();
         }
 

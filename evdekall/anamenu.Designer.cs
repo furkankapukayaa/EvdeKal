@@ -45,13 +45,16 @@ namespace evdekall
             this.KoronaTablo = new System.Windows.Forms.Button();
             this.tarih = new System.Windows.Forms.Label();
             this.cikis = new System.Windows.Forms.PictureBox();
-            this.profil = new System.Windows.Forms.PictureBox();
             this.kucult = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.cikis)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.profil)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kucult)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // button6
@@ -208,7 +211,7 @@ namespace evdekall
             this.tarih.AutoSize = true;
             this.tarih.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tarih.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.tarih.Location = new System.Drawing.Point(359, 335);
+            this.tarih.Location = new System.Drawing.Point(359, 320);
             this.tarih.Name = "tarih";
             this.tarih.Size = new System.Drawing.Size(178, 25);
             this.tarih.TabIndex = 39;
@@ -218,7 +221,7 @@ namespace evdekall
             // cikis
             // 
             this.cikis.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cikis.Image = global::evdekall.Properties.Resources.newClose;
+            this.cikis.Image = global::evdekall.Properties.Resources.previous;
             this.cikis.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.cikis.Location = new System.Drawing.Point(956, 27);
             this.cikis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -229,24 +232,10 @@ namespace evdekall
             this.cikis.TabStop = false;
             this.cikis.Click += new System.EventHandler(this.cikis_Click);
             // 
-            // profil
-            // 
-            this.profil.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.profil.Image = global::evdekall.Properties.Resources.newProfil;
-            this.profil.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.profil.Location = new System.Drawing.Point(876, 28);
-            this.profil.Margin = new System.Windows.Forms.Padding(4);
-            this.profil.Name = "profil";
-            this.profil.Size = new System.Drawing.Size(37, 33);
-            this.profil.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.profil.TabIndex = 53;
-            this.profil.TabStop = false;
-            this.profil.Click += new System.EventHandler(this.profil_Click);
-            // 
             // kucult
             // 
             this.kucult.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.kucult.Image = global::evdekall.Properties.Resources.newKucult;
+            this.kucult.Image = global::evdekall.Properties.Resources.minimize;
             this.kucult.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.kucult.Location = new System.Drawing.Point(920, 28);
             this.kucult.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -267,16 +256,56 @@ namespace evdekall
             this.pictureBox1.TabIndex = 56;
             this.pictureBox1.TabStop = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(-190, 34);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1104, 19);
+            this.label1.TabIndex = 57;
+            this.label1.Text = " BU BİR TEST MESAJIDIR. TEST ETMEK AMAÇLI YAZILMIŞTIR. TEST MESAJINDAN HERKESE ME" +
+    "RHABALAR DİLERİZ. TEKRAR HATIRLATMAK İSTERİM TEST MESAJIDIR :)";
+            // 
+            // timer2
+            // 
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(378, 444);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(253, 32);
+            this.label2.TabIndex = 58;
+            this.label2.Text = "En Yakın Bakkal,Fırın,Eczane,Hastane vb. \r\nYerleri Bulamak İçin Haritaları Kullan" +
+    "abilirsin.\r\n";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::evdekall.Properties.Resources.maps;
+            this.pictureBox2.Location = new System.Drawing.Point(454, 376);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(82, 65);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 59;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // anamenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1000, 500);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.cikis);
             this.Controls.Add(this.panel);
-            this.Controls.Add(this.profil);
             this.Controls.Add(this.mmt);
             this.Controls.Add(this.hareket);
             this.Controls.Add(this.kucult);
@@ -295,9 +324,9 @@ namespace evdekall
             this.Text = "EvdeKal";
             this.Load += new System.EventHandler(this.anamenu_Load);
             ((System.ComponentModel.ISupportInitialize)(this.cikis)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.profil)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kucult)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -308,7 +337,6 @@ namespace evdekall
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.PictureBox cikis;
         private System.Windows.Forms.Panel panel;
-        private System.Windows.Forms.PictureBox profil;
         private System.Windows.Forms.Label mmt;
         private System.Windows.Forms.Panel hareket;
         private System.Windows.Forms.Timer timer1;
@@ -322,6 +350,10 @@ namespace evdekall
         private System.Windows.Forms.Button KoronaTablo;
         private System.Windows.Forms.Label tarih;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

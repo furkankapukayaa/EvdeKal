@@ -48,10 +48,10 @@ namespace evdekall
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Myriad Pro", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(162, 34);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(216, 42);
+            this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(199, 20);
+            this.label3.Size = new System.Drawing.Size(257, 25);
             this.label3.TabIndex = 21;
             this.label3.Text = "Vücut Kitle İndeksi Hesapla";
             // 
@@ -59,10 +59,10 @@ namespace evdekall
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(24, 137);
-            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label2.Location = new System.Drawing.Point(32, 169);
+            this.label2.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 13);
+            this.label2.Size = new System.Drawing.Size(135, 17);
             this.label2.TabIndex = 20;
             this.label2.Text = "Kilonuz (orn:80) :";
             // 
@@ -70,47 +70,48 @@ namespace evdekall
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(10, 99);
-            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label1.Location = new System.Drawing.Point(13, 122);
+            this.label1.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(118, 13);
+            this.label1.Size = new System.Drawing.Size(153, 17);
             this.label1.TabIndex = 19;
             this.label1.Text = "Boyunuz (orn:175) :";
             // 
             // kilo
             // 
-            this.kilo.Location = new System.Drawing.Point(166, 137);
-            this.kilo.Margin = new System.Windows.Forms.Padding(5);
+            this.kilo.Location = new System.Drawing.Point(221, 169);
+            this.kilo.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.kilo.Name = "kilo";
-            this.kilo.Size = new System.Drawing.Size(175, 20);
+            this.kilo.Size = new System.Drawing.Size(232, 22);
             this.kilo.TabIndex = 18;
             this.kilo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox2_KeyPress);
             // 
             // boy
             // 
-            this.boy.Location = new System.Drawing.Point(166, 99);
-            this.boy.Margin = new System.Windows.Forms.Padding(5);
+            this.boy.Location = new System.Drawing.Point(221, 122);
+            this.boy.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.boy.Name = "boy";
-            this.boy.Size = new System.Drawing.Size(175, 20);
+            this.boy.Size = new System.Drawing.Size(232, 22);
             this.boy.TabIndex = 17;
             this.boy.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(14, 178);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(5);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(19, 219);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(495, 212);
+            this.listBox1.Size = new System.Drawing.Size(659, 260);
             this.listBox1.TabIndex = 16;
             // 
             // button1
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(367, 108);
-            this.button1.Margin = new System.Windows.Forms.Padding(5);
+            this.button1.Location = new System.Drawing.Point(489, 133);
+            this.button1.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 34);
+            this.button1.Size = new System.Drawing.Size(177, 42);
             this.button1.TabIndex = 15;
             this.button1.Text = "Hesapla";
             this.button1.UseVisualStyleBackColor = true;
@@ -120,10 +121,10 @@ namespace evdekall
             // 
             this.hareket.BackColor = System.Drawing.Color.Red;
             this.hareket.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.hareket.Location = new System.Drawing.Point(-2, -1);
-            this.hareket.Margin = new System.Windows.Forms.Padding(4);
+            this.hareket.Location = new System.Drawing.Point(-3, -1);
+            this.hareket.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.hareket.Name = "hareket";
-            this.hareket.Size = new System.Drawing.Size(539, 22);
+            this.hareket.Size = new System.Drawing.Size(717, 26);
             this.hareket.TabIndex = 73;
             this.hareket.MouseDown += new System.Windows.Forms.MouseEventHandler(this.hareket_MouseDown);
             this.hareket.MouseMove += new System.Windows.Forms.MouseEventHandler(this.hareket_MouseMove);
@@ -132,12 +133,12 @@ namespace evdekall
             // cikis
             // 
             this.cikis.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cikis.Image = global::evdekall.Properties.Resources.newBack;
+            this.cikis.Image = global::evdekall.Properties.Resources.previous;
             this.cikis.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.cikis.Location = new System.Drawing.Point(483, 27);
-            this.cikis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.cikis.Location = new System.Drawing.Point(644, 33);
+            this.cikis.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.cikis.Name = "cikis";
-            this.cikis.Size = new System.Drawing.Size(30, 33);
+            this.cikis.Size = new System.Drawing.Size(40, 41);
             this.cikis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.cikis.TabIndex = 75;
             this.cikis.TabStop = false;
@@ -146,12 +147,12 @@ namespace evdekall
             // kucult
             // 
             this.kucult.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.kucult.Image = global::evdekall.Properties.Resources.newKucult;
+            this.kucult.Image = global::evdekall.Properties.Resources.minimize;
             this.kucult.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.kucult.Location = new System.Drawing.Point(447, 27);
-            this.kucult.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.kucult.Location = new System.Drawing.Point(596, 33);
+            this.kucult.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.kucult.Name = "kucult";
-            this.kucult.Size = new System.Drawing.Size(30, 33);
+            this.kucult.Size = new System.Drawing.Size(40, 41);
             this.kucult.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.kucult.TabIndex = 74;
             this.kucult.TabStop = false;
@@ -159,9 +160,9 @@ namespace evdekall
             // 
             // vki
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(525, 404);
+            this.ClientSize = new System.Drawing.Size(700, 497);
             this.Controls.Add(this.cikis);
             this.Controls.Add(this.kucult);
             this.Controls.Add(this.hareket);
@@ -174,6 +175,7 @@ namespace evdekall
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "vki";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Vücut Kitle İndeksi Hesaplama";

@@ -19,7 +19,7 @@ namespace evdekall
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("TEBRİKLER");
+            MessageBox.Show("TEBRİKLER","Butonu Yakala");
             oyun oyun = new oyun();
             oyun.Show();
             this.Hide();
