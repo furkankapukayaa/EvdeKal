@@ -53,3 +53,4 @@ C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\Evde Kal.application
 C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\Evde Kal.exe
 C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\Evde Kal.pdb
 C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.yirmivealtmisdortarasi.resources
+C:\Users\user\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.girisbildirim.resources

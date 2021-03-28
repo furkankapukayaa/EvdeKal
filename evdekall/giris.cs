@@ -53,6 +53,11 @@ namespace evdekall
 
         public static string gonderAd = "", gonderSoyad = "";
         public static int gonderYas;
+        public void Uyari(string msg)
+        {
+            girisbildirim girisbildirim = new girisbildirim();
+            girisbildirim.UyariGoster(msg);
+        }
         private void girisYap_Click(object sender, EventArgs e)
         {
             string ad, soyad;
@@ -74,7 +79,8 @@ namespace evdekall
                 gonderSoyad = soyad;
                 gonderYas = yas;
 
-                MessageBox.Show("Merhaba " + ad.ToUpper() + " " + soyad.ToUpper() + " Hoş Geldin!", "EvdeKAL!");
+                //MessageBox.Show("Merhaba " + ad.ToUpper() + " " + soyad.ToUpper() + " Hoş Geldin!", "EvdeKAL!");
+                this.Uyari("Merhaba " + ad.ToUpper() + " " + soyad.ToUpper() + " Hoş Geldin!");
                 yenimenu yenimenu = new yenimenu();
                 yenimenu.Show();
                 this.Hide();
