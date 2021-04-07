@@ -285,7 +285,6 @@ namespace evdekall
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::evdekall.Properties.Resources.maps;
             this.pictureBox2.Location = new System.Drawing.Point(454, 376);
             this.pictureBox2.Name = "pictureBox2";

@@ -182,12 +182,6 @@
     <Compile Include="spor.Designer.cs">
       <DependentUpon>spor.cs</DependentUpon>
     </Compile>
-    <Compile Include="test.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="test.Designer.cs">
-      <DependentUpon>test.cs</DependentUpon>
-    </Compile>
     <Compile Include="vki.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -267,9 +261,6 @@
     <EmbeddedResource Include="spor.resx">
       <DependentUpon>spor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="test.resx">
-      <DependentUpon>test.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="vki.resx">
       <DependentUpon>vki.cs</DependentUpon>
     </EmbeddedResource>
@@ -348,8 +339,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="coronavirus.ico" />
-    <None Include="Resources\haritapicture.png" />
     <None Include="Resources\maps.png" />
+    <None Include="Resources\haritalarload.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

@@ -123,9 +123,9 @@ namespace evdekall.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap haritapicture {
+        internal static System.Drawing.Bitmap haritalarload {
             get {
-                object obj = ResourceManager.GetObject("haritapicture", resourceCulture);
+                object obj = ResourceManager.GetObject("haritalarload", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
