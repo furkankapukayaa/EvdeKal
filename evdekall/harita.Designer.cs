@@ -33,7 +33,6 @@ namespace evdekall
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtİLCE = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -41,8 +40,6 @@ namespace evdekall
             this.hareket = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.iller = new System.Windows.Forms.ComboBox();
-            this.ulkeler = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.cikis = new System.Windows.Forms.PictureBox();
@@ -69,7 +66,7 @@ namespace evdekall
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(63, 317);
+            this.label1.Location = new System.Drawing.Point(64, 276);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(36, 19);
             this.label1.TabIndex = 1;
@@ -79,27 +76,17 @@ namespace evdekall
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(71, 267);
+            this.label2.Location = new System.Drawing.Point(72, 226);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(20, 19);
             this.label2.TabIndex = 2;
             this.label2.Text = "İL";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(61, 217);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 19);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "ÜLKE";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(26, 367);
+            this.label4.Location = new System.Drawing.Point(26, 339);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(125, 19);
             this.label4.TabIndex = 4;
@@ -108,7 +95,7 @@ namespace evdekall
             // txtİLCE
             // 
             this.txtİLCE.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F);
-            this.txtİLCE.Location = new System.Drawing.Point(26, 339);
+            this.txtİLCE.Location = new System.Drawing.Point(27, 298);
             this.txtİLCE.Name = "txtİLCE";
             this.txtİLCE.Size = new System.Drawing.Size(125, 25);
             this.txtİLCE.TabIndex = 5;
@@ -117,7 +104,7 @@ namespace evdekall
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(18, 432);
+            this.button1.Location = new System.Drawing.Point(18, 404);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(67, 44);
             this.button1.TabIndex = 9;
@@ -137,7 +124,7 @@ namespace evdekall
             "Bakkal",
             "Fırın",
             "Süpermarket"});
-            this.mekan.Location = new System.Drawing.Point(26, 389);
+            this.mekan.Location = new System.Drawing.Point(26, 361);
             this.mekan.Name = "mekan";
             this.mekan.Size = new System.Drawing.Size(126, 27);
             this.mekan.TabIndex = 11;
@@ -158,7 +145,7 @@ namespace evdekall
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(91, 432);
+            this.button2.Location = new System.Drawing.Point(91, 404);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(76, 44);
             this.button2.TabIndex = 58;
@@ -253,235 +240,10 @@ namespace evdekall
             "Kilis",
             "Osmaniye",
             "Düzce"});
-            this.iller.Location = new System.Drawing.Point(25, 287);
+            this.iller.Location = new System.Drawing.Point(26, 246);
             this.iller.Name = "iller";
             this.iller.Size = new System.Drawing.Size(126, 27);
             this.iller.TabIndex = 59;
-            // 
-            // ulkeler
-            // 
-            this.ulkeler.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.ulkeler.Font = new System.Drawing.Font("Microsoft YaHei", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.ulkeler.Items.AddRange(new object[] {
-            "",
-            "Abhazya",
-            "Afganistan",
-            "Almanya",
-            "Amerika Birleşik Devletleri",
-            "Andorra",
-            "Angola",
-            "Antigua ve Barbuda",
-            "Arjantin",
-            "Arnavutluk",
-            "Avustralya",
-            "Avusturya",
-            "Azerbaycan",
-            "Bahamalar",
-            "Bahreyn",
-            "Bangladeş",
-            "Barbados",
-            "Batı Sahra",
-            "Belçika",
-            "Belize",
-            "Benin",
-            "Beyaz Rusya",
-            "Bhutan",
-            "Birleşik Arap Emirlikleri",
-            "Bolivya",
-            "Bosna Hersek",
-            "Botsvana",
-            "Brezilya",
-            "Brunei",
-            "Bulgaristan",
-            "Burkina Faso",
-            "Burundi",
-            "Cezayir",
-            "Cibuti",
-            "Çad",
-            "Çek Cumhuriyeti",
-            "Çin Halk Cumhuriyeti",
-            "Dağlık Karabağ Cumhuriyeti",
-            "Danimarka",
-            "Doğu Timor",
-            "Dominik Cumhuriyeti",
-            "Dominika",
-            "Ekvador",
-            "Ekvator Ginesi",
-            "El Salvador",
-            "Endonezya",
-            "Eritre",
-            "Ermenistan",
-            "Estonya",
-            "Etiyopya",
-            "Fas",
-            "Fiji",
-            "Fildişi Sahilleri",
-            "Filipinler",
-            "Filistin",
-            "Finlandiya",
-            "Fransa",
-            "Gabon",
-            "Gambiya",
-            "Gana",
-            "Gine",
-            "Gine Bissau Gine Bissau Batı Afrika",
-            "Grenada",
-            "Guyana",
-            "Guatemala",
-            "Güney Afrika Cumhuriyeti",
-            "Güney Kore",
-            "Güney Osetya",
-            "Güney Sudan",
-            "Gürcistan",
-            "Haiti",
-            "Hırvatistan",
-            "Hindistan",
-            "Hollanda",
-            "Honduras",
-            "Irak",
-            "İngiltere",
-            "İran",
-            "İrlanda",
-            "İspanya",
-            "İsrail",
-            "İsveç",
-            "İsviçre",
-            "İtalya",
-            "İzlanda",
-            "Jamaika",
-            "Japonya",
-            "Kamboçya",
-            "Kamerun",
-            "Kanada",
-            "Karadağ Katar",
-            "Kazakistan",
-            "Kenya",
-            "Kırgızistan",
-            "Kıbrıs Cumhuriyeti",
-            "Kiribati",
-            "Kolombiya",
-            "Komorlar",
-            "Kongo",
-            "Kongo Demokratik Cumhuriyeti",
-            "Kosova",
-            "Kosta Rika",
-            "Kuveyt",
-            "Kuzey Kıbrıs Türk Cumhuriyeti",
-            "Kuzey Kore",
-            "Küba",
-            "Laos",
-            "Lesotho",
-            "Letonya",
-            "Liberya",
-            "Libya",
-            "Liechtenstein",
-            "Litvanya",
-            "Lübnan",
-            "Lüksemburg",
-            "Macaristan",
-            "Madagaskar",
-            "Makedonya Cumhuriyeti",
-            "Malavi",
-            "Maldivler",
-            "Malezya",
-            "Mali",
-            "Malta",
-            "Marshall Adaları",
-            "Meksika",
-            "Mısır",
-            "Mikronezya",
-            "Moğolistan",
-            "Moldova",
-            "Monako",
-            "Moritanya",
-            "Moritius",
-            "Mozambik",
-            "Myanmar",
-            "Namibya",
-            "Nauru",
-            "Nepal",
-            "Nikaragua",
-            "Nijer",
-            "Nijerya",
-            "Norveç",
-            "Orta Afrika Cumhuriyeti",
-            "Özbekistan",
-            "Pakistan",
-            "Palau",
-            "Panama",
-            "Papua",
-            "Paraguay",
-            "Peru",
-            "Polonya",
-            "Portekiz",
-            "Porto Riko",
-            "Romanya",
-            "Ruanda",
-            "Rusya Federasyonu",
-            "Saint Kitts",
-            "Saint Lucia",
-            "Saint Vincent ve Grenadinler",
-            "Samoa",
-            "San Marino",
-            "Sao Tome ve Principe",
-            "Sealand",
-            "Senegal",
-            "Seyşeller",
-            "Sırbistan",
-            "Sierra Leone",
-            "Singapur",
-            "Slovakya",
-            "Slovenya",
-            "Solomon Adaları",
-            "Somali",
-            "Somaliland",
-            "Sri Lanka",
-            "Sudan",
-            "Surinam",
-            "Suriye",
-            "Suudi Arabistan",
-            "Svaziland",
-            "Şili",
-            "Tacikistan",
-            "Tanzanya",
-            "Tayland",
-            "Tayvan",
-            "Togo",
-            "Tonga",
-            "Transdinyester",
-            "Trinidad ve Tobago",
-            "Tunus",
-            "Tuvalu",
-            "Türkiye",
-            "Türkmenistan",
-            "Uganda",
-            "Ukrayna",
-            "Umman",
-            "Uruguay",
-            "Ürdün",
-            "Vanuatu",
-            "Vatikan",
-            "Venezuela",
-            "Vietnam",
-            "Yemen",
-            "Yeni Zelanda",
-            "Yeşil Burun",
-            "Yunanistan",
-            "Zambiyav",
-            "Zimbabve"});
-            this.ulkeler.Location = new System.Drawing.Point(25, 237);
-            this.ulkeler.Name = "ulkeler";
-            this.ulkeler.Size = new System.Drawing.Size(126, 27);
-            this.ulkeler.TabIndex = 60;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(103, 220);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 13);
-            this.label5.TabIndex = 61;
-            this.label5.Text = "(İsteğe Bağlı)";
             // 
             // panel1
             // 
@@ -533,7 +295,7 @@ namespace evdekall
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::evdekall.Properties.Resources.haritalarload;
+            this.pictureBox1.Image = global::evdekall.Properties.Resources.mapload;
             this.pictureBox1.Location = new System.Drawing.Point(190, 66);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(812, 484);
@@ -560,8 +322,6 @@ namespace evdekall
             this.Controls.Add(this.label6);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.ulkeler);
             this.Controls.Add(this.iller);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.cikis);
@@ -572,7 +332,6 @@ namespace evdekall
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtİLCE);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.webBrowser1);
@@ -596,7 +355,6 @@ namespace evdekall
         private System.Windows.Forms.WebBrowser webBrowser1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtİLCE;
         private System.Windows.Forms.Button button1;
@@ -607,8 +365,6 @@ namespace evdekall
         private System.Windows.Forms.PictureBox kucult;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ComboBox iller;
-        private System.Windows.Forms.ComboBox ulkeler;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label6;

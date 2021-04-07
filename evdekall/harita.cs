@@ -40,39 +40,40 @@ namespace evdekall
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Donustur();
-            string ulke = ulkeler.SelectedItem.ToString();
-            string il = iller.SelectedItem.ToString();
-            string ilce = txtİLCE.Text;
-            string mekan = this.mekan.SelectedItem.ToString();
+            if (txtİLCE.Text != "")
+            {
+                Donustur();
+                string il = iller.SelectedItem.ToString();
+                string ilce = txtİLCE.Text;
+                string mekan = this.mekan.SelectedItem.ToString();
+                try
+                {
+                    StringBuilder adres = new StringBuilder();
+                    adres.Append("https://www.google.com/maps/search/");
 
-            try
-            {
-                StringBuilder adres = new StringBuilder();
-                adres.Append("https://www.google.com/maps/search/");
-                
-                if (ulke != String.Empty)
-                {
-                    adres.Append(ulke + " " + "+");
+                    if (il != String.Empty)
+                    {
+                        adres.Append(il + " " + "+");
+                    }
+                    if (ilce != String.Empty)
+                    {
+                        adres.Append(ilce + " " + "+");
+                    }
+                    if (mekan != String.Empty)
+                    {
+                        adres.Append(mekan);
+                    }
+                    webBrowser1.Navigate(adres.ToString());
+                    pictureBox1.Visible = false;
                 }
-                if (il != String.Empty)
+                catch (Exception ex)
                 {
-                    adres.Append(il + " " + "+");
+                    MessageBox.Show(ex.Message, "Hata");
                 }
-                if (ilce != String.Empty)
-                {
-                    adres.Append(ilce + " " + "+");
-                }
-                if (mekan != String.Empty)
-                {
-                    adres.Append(mekan);
-                }
-                webBrowser1.Navigate(adres.ToString());
-                pictureBox1.Visible = false;
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show(ex.Message, "Hata");
+                MessageBox.Show("Lütfen Kutuları Boş Bırakmayınız!", "Boş Alan Hatası");
             }
         }
 
@@ -101,9 +102,9 @@ namespace evdekall
         private void button2_Click(object sender, EventArgs e)
         {
             txtİLCE.Clear();
-            ulkeler.SelectedIndex = 0;
             iller.SelectedIndex = 0;
             mekan.SelectedIndex = 0;
+            pictureBox1.Visible = true;
         }
 
         private void txtİLCE_KeyPress(object sender, KeyPressEventArgs e)

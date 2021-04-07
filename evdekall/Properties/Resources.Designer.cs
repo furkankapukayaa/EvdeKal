@@ -123,16 +123,6 @@ namespace evdekall.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap haritalarload {
-            get {
-                object obj = ResourceManager.GetObject("haritalarload", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap heartbeat {
             get {
                 object obj = ResourceManager.GetObject("heartbeat", resourceCulture);
@@ -146,6 +136,16 @@ namespace evdekall.Properties {
         internal static System.Drawing.Bitmap login {
             get {
                 object obj = ResourceManager.GetObject("login", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mapload {
+            get {
+                object obj = ResourceManager.GetObject("mapload", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
