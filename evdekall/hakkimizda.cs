@@ -39,7 +39,7 @@ namespace evdekall
 
         private void website_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://evdekalapp.github.io/");
+            System.Diagnostics.Process.Start("https://furkankapukayaa.github.io/evdekal/index.html");
         }
 
         private void github_Click(object sender, EventArgs e)
@@ -49,7 +49,7 @@ namespace evdekall
 
         private void paylas_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://evdekalapp.github.io/");
+            System.Diagnostics.Process.Start("https://furkankapukayaa.github.io/evdekal/index.html");
         }
 
         private void hareket_MouseUp(object sender, MouseEventArgs e)

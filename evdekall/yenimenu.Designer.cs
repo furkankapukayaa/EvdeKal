@@ -293,7 +293,7 @@ namespace evdekall
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(135, 54);
             this.label5.TabIndex = 72;
-            this.label5.Text = "Bir Yermi Arıyorsun !\r\nHemen Haritlardan \r\nİstediğin YERİ BUL !\r\n";
+            this.label5.Text = "Bir Yermi Arıyorsun !\r\nHemen Haritalardan \r\nİstediğin YERİ BUL !\r\n";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // yenimenu
