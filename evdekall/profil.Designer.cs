@@ -47,7 +47,7 @@ namespace evdekall
             // 
             this.yas.Enabled = false;
             this.yas.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.yas.Location = new System.Drawing.Point(124, 307);
+            this.yas.Location = new System.Drawing.Point(44, 291);
             this.yas.Margin = new System.Windows.Forms.Padding(4);
             this.yas.Name = "yas";
             this.yas.Size = new System.Drawing.Size(236, 27);
@@ -57,7 +57,7 @@ namespace evdekall
             // 
             this.adsoyad.Enabled = false;
             this.adsoyad.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold);
-            this.adsoyad.Location = new System.Drawing.Point(124, 267);
+            this.adsoyad.Location = new System.Drawing.Point(44, 251);
             this.adsoyad.Margin = new System.Windows.Forms.Padding(4);
             this.adsoyad.Name = "adsoyad";
             this.adsoyad.Size = new System.Drawing.Size(236, 27);
@@ -66,11 +66,11 @@ namespace evdekall
             // izinsorgu
             // 
             this.izinsorgu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.izinsorgu.Font = new System.Drawing.Font("Myanmar Text", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.izinsorgu.Location = new System.Drawing.Point(121, 342);
+            this.izinsorgu.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.izinsorgu.Location = new System.Drawing.Point(41, 326);
             this.izinsorgu.Margin = new System.Windows.Forms.Padding(4);
             this.izinsorgu.Name = "izinsorgu";
-            this.izinsorgu.Size = new System.Drawing.Size(239, 64);
+            this.izinsorgu.Size = new System.Drawing.Size(239, 38);
             this.izinsorgu.TabIndex = 19;
             this.izinsorgu.Text = "Dışarı Çıkabiliyor Muyum ?";
             this.izinsorgu.UseVisualStyleBackColor = true;
@@ -93,7 +93,7 @@ namespace evdekall
             // 
             this.panel.BackColor = System.Drawing.Color.Red;
             this.panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel.Location = new System.Drawing.Point(-2, 480);
+            this.panel.Location = new System.Drawing.Point(-2, 385);
             this.panel.Margin = new System.Windows.Forms.Padding(4);
             this.panel.Name = "panel";
             this.panel.Size = new System.Drawing.Size(507, 22);
@@ -104,7 +104,7 @@ namespace evdekall
             this.cikis.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cikis.Image = global::evdekall.Properties.Resources.previous;
             this.cikis.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.cikis.Location = new System.Drawing.Point(458, 27);
+            this.cikis.Location = new System.Drawing.Point(301, 27);
             this.cikis.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cikis.Name = "cikis";
             this.cikis.Size = new System.Drawing.Size(30, 33);
@@ -118,7 +118,7 @@ namespace evdekall
             this.kucult.Cursor = System.Windows.Forms.Cursors.Hand;
             this.kucult.Image = global::evdekall.Properties.Resources.minimize;
             this.kucult.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.kucult.Location = new System.Drawing.Point(422, 27);
+            this.kucult.Location = new System.Drawing.Point(265, 27);
             this.kucult.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.kucult.Name = "kucult";
             this.kucult.Size = new System.Drawing.Size(30, 33);
@@ -130,7 +130,7 @@ namespace evdekall
             // profilfoto
             // 
             this.profilfoto.Image = global::evdekall.Properties.Resources.profile_user;
-            this.profilfoto.Location = new System.Drawing.Point(158, 100);
+            this.profilfoto.Location = new System.Drawing.Point(78, 84);
             this.profilfoto.Margin = new System.Windows.Forms.Padding(4);
             this.profilfoto.Name = "profilfoto";
             this.profilfoto.Size = new System.Drawing.Size(179, 159);
@@ -142,7 +142,7 @@ namespace evdekall
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(500, 500);
+            this.ClientSize = new System.Drawing.Size(343, 405);
             this.Controls.Add(this.panel);
             this.Controls.Add(this.hareket);
             this.Controls.Add(this.cikis);

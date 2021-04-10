@@ -13,7 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\user\Desktop\EvdeKAL Setup 2021.03\</PublishUrl>
+    <PublishUrl>C:\Users\user\Desktop\EvdeKAL Setup 2021.04\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -28,7 +28,7 @@
     <TargetCulture>tr-TR</TargetCulture>
     <ProductName>Evde Kal</ProductName>
     <PublisherName>Furkan Kapukaya</PublisherName>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>20.21.3.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -339,8 +339,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="coronavirus.ico" />
+    <None Include="Resources\mapload.png" />
     <None Include="Resources\maps.png" />
-    <None Include="Resources\haritalarload.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Evde Kal.exe" size="5886976">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Evde Kal.exe" size="5879808">
       <assemblyIdentity name="Evde Kal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>kRNya0bfxq20ciPIbNqYfW29o8FgFBwBVjUa1rI6cB8=</dsig:DigestValue>
+        <dsig:DigestValue>stW3pCCUhG5C6XgZIVUB+t3JY7Zd7vBqv6RpeOunlQA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
