@@ -100,6 +100,12 @@ namespace evdekall
             this.Close();
         }
 
+        private void kural14_Click(object sender, EventArgs e)
+        {
+            _14kural _14kural = new _14kural();
+            _14kural.Show();
+        }
+
         private void hareket_MouseMove(object sender, MouseEventArgs e)
         {
             if (mov == 1)

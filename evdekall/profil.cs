@@ -81,7 +81,7 @@ namespace evdekall
                             yenimenu yenimenu = new yenimenu();
                             yenimenu.Show();
                             this.Close();
-                            MessageBox.Show("Hadi Kolay Gelsin <3", "Evde Kal");
+                            MessageBox.Show("Keyifli Vakitler <3", "Evde Kal");
                         }
                         else
                         {
@@ -193,6 +193,14 @@ namespace evdekall
         private void hareket_MouseUp(object sender, MouseEventArgs e)
         {
             mov = 0;
+        }
+
+        private void cikisYap_Click(object sender, EventArgs e)
+        {
+            giris giris = new giris();
+            MessageBox.Show("Görüşürüz! " + giris.gonderAd + " Sağlıklı Günler Dileriz!", "Evde Kal");
+            giris.Show();
+            this.Close();
         }
 
         private void hareket_MouseDown(object sender, MouseEventArgs e)

@@ -42,24 +42,12 @@ namespace evdekall
             this.Close();
         }
 
-        int count = 0;
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            if (count < 4)
-            {
-                slider.Image = ımageList1.Images[count];
-                count++;
-            }
-            else
-            {
-                count = 0;
-            }
-                
-        }
-
         private void yenimenu_Load(object sender, EventArgs e)
         {
             mrbuser.Text = "MERHABA, " + giris.gonderAd.ToUpper() + " " + giris.gonderSoyad.ToUpper();
+            ToolTip Aciklama = new ToolTip();
+            Aciklama.SetToolTip(profil, "Profil");
+            Aciklama.SetToolTip(hakkimizda, "Bilgi");
         }
 
         private void korona_Click(object sender, EventArgs e)
@@ -102,6 +90,17 @@ namespace evdekall
             harita harita = new harita();
             harita.Show();
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            _14kural _14kural = new _14kural();
+            _14kural.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Testimiz güncelleniyor. Anlayışınız için teşekkür ederiz.");
         }
 
         private void hareket_MouseMove(object sender, MouseEventArgs e)

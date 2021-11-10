@@ -37,11 +37,6 @@ namespace evdekall
             movY = e.Y;
         }
 
-        private void website_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://furkankapukayaa.github.io/evdekal/index.html");
-        }
-
         private void github_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/furkankapukayaa/EvdeKal");
@@ -49,7 +44,7 @@ namespace evdekall
 
         private void paylas_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://furkankapukayaa.github.io/evdekal/index.html");
+            System.Diagnostics.Process.Start("https://github.com/furkankapukayaa/EvdeKal");
         }
 
         private void hareket_MouseUp(object sender, MouseEventArgs e)

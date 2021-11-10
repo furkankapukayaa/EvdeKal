@@ -13,7 +13,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\user\Desktop\EvdeKAL Setup 2021.04\</PublishUrl>
+    <PublishUrl>C:\Users\user\Desktop\EvdeKAL Setup 11.2001\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -28,8 +28,8 @@
     <TargetCulture>tr-TR</TargetCulture>
     <ProductName>Evde Kal</ProductName>
     <PublisherName>Furkan Kapukaya</PublisherName>
-    <ApplicationRevision>2</ApplicationRevision>
-    <ApplicationVersion>20.21.3.%2a</ApplicationVersion>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>20.21.11.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -90,6 +90,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="14kural.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="14kural.Designer.cs">
+      <DependentUpon>14kural.cs</DependentUpon>
+    </Compile>
     <Compile Include="altmisbesuzeri.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -206,6 +212,9 @@
     <Compile Include="yirmiyasalti.Designer.cs">
       <DependentUpon>yirmiyasalti.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="14kural.resx">
+      <DependentUpon>14kural.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="altmisbesuzeri.resx">
       <DependentUpon>altmisbesuzeri.cs</DependentUpon>
     </EmbeddedResource>
@@ -287,7 +296,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\coronavirus.png" />
+    <None Include="Resources\coronavirus.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\login.png" />
@@ -305,13 +316,19 @@
     <None Include="Resources\coronavirus1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\heartbeat.png" />
+    <None Include="Resources\heartbeat.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\sport.png" />
+    <None Include="Resources\sport.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\game-development.png" />
+    <None Include="Resources\game-development.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\profile-user.png" />
@@ -340,7 +357,9 @@
   <ItemGroup>
     <Content Include="coronavirus.ico" />
     <None Include="Resources\mapload.png" />
-    <None Include="Resources\maps.png" />
+    <None Include="Resources\maps.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

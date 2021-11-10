@@ -80,7 +80,7 @@ namespace evdekall
                 gonderYas = yas;
 
                 //MessageBox.Show("Merhaba " + ad.ToUpper() + " " + soyad.ToUpper() + " Hoş Geldin!", "EvdeKAL!");
-                this.Uyari("Merhaba " + ad.ToUpper() + " " + soyad.ToUpper() + " Hoş Geldin!");
+                this.Uyari("Merhaba " + ad + " " + soyad + " Hoş Geldin!");
                 yenimenu yenimenu = new yenimenu();
                 yenimenu.Show();
                 this.Hide();
@@ -104,9 +104,11 @@ namespace evdekall
 
         private void giris_Load(object sender, EventArgs e)
         {
-            ad.MaxLength = 25;
-            soyad.MaxLength = 15;
+            ad.MaxLength = 10;
+            soyad.MaxLength = 10;
             yas.MaxLength = 3;
+            ToolTip Aciklama = new ToolTip();
+            Aciklama.SetToolTip(girisYap, "Giriş Yap");
         }
     }
 }

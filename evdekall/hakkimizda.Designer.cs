@@ -38,14 +38,12 @@ namespace evdekall
             this.label4 = new System.Windows.Forms.Label();
             this.paylas = new System.Windows.Forms.PictureBox();
             this.github = new System.Windows.Forms.PictureBox();
-            this.website = new System.Windows.Forms.PictureBox();
             this.logo = new System.Windows.Forms.PictureBox();
             this.cikis = new System.Windows.Forms.PictureBox();
             this.kucult = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.paylas)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.github)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.website)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cikis)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kucult)).BeginInit();
@@ -78,11 +76,11 @@ namespace evdekall
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Montserrat", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(205, 135);
+            this.label1.Location = new System.Drawing.Point(234, 135);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(154, 25);
+            this.label1.Size = new System.Drawing.Size(104, 25);
             this.label1.TabIndex = 80;
-            this.label1.Text = "Evde Kal App";
+            this.label1.Text = "Evde Kal";
             // 
             // label2
             // 
@@ -90,9 +88,9 @@ namespace evdekall
             this.label2.Font = new System.Drawing.Font("Montserrat", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(211, 160);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(144, 19);
+            this.label2.Size = new System.Drawing.Size(137, 19);
             this.label2.TabIndex = 81;
-            this.label2.Text = "Versiyon : 2021.03";
+            this.label2.Text = "Versiyon : 11.2021";
             // 
             // label3
             // 
@@ -118,7 +116,7 @@ namespace evdekall
             // 
             this.paylas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.paylas.Image = global::evdekall.Properties.Resources.share;
-            this.paylas.Location = new System.Drawing.Point(394, 374);
+            this.paylas.Location = new System.Drawing.Point(331, 346);
             this.paylas.Name = "paylas";
             this.paylas.Size = new System.Drawing.Size(58, 49);
             this.paylas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -130,25 +128,13 @@ namespace evdekall
             // 
             this.github.Cursor = System.Windows.Forms.Cursors.Hand;
             this.github.Image = global::evdekall.Properties.Resources.github;
-            this.github.Location = new System.Drawing.Point(256, 374);
+            this.github.Location = new System.Drawing.Point(178, 346);
             this.github.Name = "github";
             this.github.Size = new System.Drawing.Size(58, 49);
             this.github.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.github.TabIndex = 86;
             this.github.TabStop = false;
             this.github.Click += new System.EventHandler(this.github_Click);
-            // 
-            // website
-            // 
-            this.website.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.website.Image = global::evdekall.Properties.Resources.website;
-            this.website.Location = new System.Drawing.Point(116, 374);
-            this.website.Name = "website";
-            this.website.Size = new System.Drawing.Size(58, 49);
-            this.website.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.website.TabIndex = 85;
-            this.website.TabStop = false;
-            this.website.Click += new System.EventHandler(this.website_Click);
             // 
             // logo
             // 
@@ -207,7 +193,6 @@ namespace evdekall
             this.Controls.Add(this.label5);
             this.Controls.Add(this.paylas);
             this.Controls.Add(this.github);
-            this.Controls.Add(this.website);
             this.Controls.Add(this.logo);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -224,7 +209,6 @@ namespace evdekall
             this.Text = "Hakkımızda";
             ((System.ComponentModel.ISupportInitialize)(this.paylas)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.github)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.website)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cikis)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kucult)).EndInit();
@@ -244,7 +228,6 @@ namespace evdekall
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox logo;
-        private System.Windows.Forms.PictureBox website;
         private System.Windows.Forms.PictureBox github;
         private System.Windows.Forms.PictureBox paylas;
         private System.Windows.Forms.Label label5;
