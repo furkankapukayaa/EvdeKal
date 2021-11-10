@@ -356,6 +356,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="coronavirus.ico" />
+    <None Include="Resources\stay-home.png" />
+    <None Include="Resources\permission.png" />
+    <None Include="Resources\login1.png" />
+    <None Include="Resources\gradyan-buton.png" />
+    <None Include="Resources\14-kural.png" />
     <None Include="Resources\mapload.png" />
     <None Include="Resources\maps.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>

@@ -155,7 +155,7 @@ namespace evdekall
             // girisYap
             // 
             this.girisYap.BackColor = System.Drawing.Color.Transparent;
-            this.girisYap.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("girisYap.BackgroundImage")));
+            this.girisYap.BackgroundImage = global::evdekall.Properties.Resources.login1;
             this.girisYap.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.girisYap.Cursor = System.Windows.Forms.Cursors.Hand;
             this.girisYap.FlatAppearance.BorderSize = 0;

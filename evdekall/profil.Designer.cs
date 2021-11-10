@@ -33,14 +33,14 @@ namespace evdekall
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(profil));
             this.yas = new System.Windows.Forms.TextBox();
             this.adsoyad = new System.Windows.Forms.TextBox();
-            this.izinsorgu = new System.Windows.Forms.Button();
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.hareket = new System.Windows.Forms.Panel();
             this.panel = new System.Windows.Forms.Panel();
+            this.cikisYap = new System.Windows.Forms.Button();
             this.cikis = new System.Windows.Forms.PictureBox();
             this.kucult = new System.Windows.Forms.PictureBox();
+            this.izinsorgu = new System.Windows.Forms.Button();
             this.profilfoto = new System.Windows.Forms.PictureBox();
-            this.cikisYap = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.cikis)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kucult)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.profilfoto)).BeginInit();
@@ -67,27 +67,6 @@ namespace evdekall
             this.adsoyad.Name = "adsoyad";
             this.adsoyad.Size = new System.Drawing.Size(236, 22);
             this.adsoyad.TabIndex = 20;
-            // 
-            // izinsorgu
-            // 
-            this.izinsorgu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.izinsorgu.FlatAppearance.BorderSize = 0;
-            this.izinsorgu.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.izinsorgu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.izinsorgu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.izinsorgu.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.izinsorgu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.izinsorgu.ImageKey = "permission.png";
-            this.izinsorgu.ImageList = this.ımageList1;
-            this.izinsorgu.Location = new System.Drawing.Point(13, 326);
-            this.izinsorgu.Margin = new System.Windows.Forms.Padding(4);
-            this.izinsorgu.Name = "izinsorgu";
-            this.izinsorgu.Size = new System.Drawing.Size(192, 51);
-            this.izinsorgu.TabIndex = 19;
-            this.izinsorgu.Text = "Dışarı Çıkabiliyor Muyum ?";
-            this.izinsorgu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.izinsorgu.UseVisualStyleBackColor = true;
-            this.izinsorgu.Click += new System.EventHandler(this.izinsorgu_Click);
             // 
             // ımageList1
             // 
@@ -119,6 +98,27 @@ namespace evdekall
             this.panel.Size = new System.Drawing.Size(352, 22);
             this.panel.TabIndex = 62;
             // 
+            // cikisYap
+            // 
+            this.cikisYap.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cikisYap.FlatAppearance.BorderSize = 0;
+            this.cikisYap.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.cikisYap.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.cikisYap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cikisYap.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.cikisYap.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.cikisYap.ImageKey = "logout.png";
+            this.cikisYap.ImageList = this.ımageList1;
+            this.cikisYap.Location = new System.Drawing.Point(213, 326);
+            this.cikisYap.Margin = new System.Windows.Forms.Padding(4);
+            this.cikisYap.Name = "cikisYap";
+            this.cikisYap.Size = new System.Drawing.Size(129, 51);
+            this.cikisYap.TabIndex = 63;
+            this.cikisYap.Text = "Çıkış Yap!";
+            this.cikisYap.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.cikisYap.UseVisualStyleBackColor = true;
+            this.cikisYap.Click += new System.EventHandler(this.cikisYap_Click);
+            // 
             // cikis
             // 
             this.cikis.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -147,6 +147,27 @@ namespace evdekall
             this.kucult.TabStop = false;
             this.kucult.Click += new System.EventHandler(this.kucult_Click);
             // 
+            // izinsorgu
+            // 
+            this.izinsorgu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.izinsorgu.FlatAppearance.BorderSize = 0;
+            this.izinsorgu.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.izinsorgu.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.izinsorgu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.izinsorgu.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.izinsorgu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.izinsorgu.ImageKey = "permission.png";
+            this.izinsorgu.ImageList = this.ımageList1;
+            this.izinsorgu.Location = new System.Drawing.Point(13, 326);
+            this.izinsorgu.Margin = new System.Windows.Forms.Padding(4);
+            this.izinsorgu.Name = "izinsorgu";
+            this.izinsorgu.Size = new System.Drawing.Size(192, 51);
+            this.izinsorgu.TabIndex = 19;
+            this.izinsorgu.Text = "Dışarı Çıkabiliyor Muyum ?";
+            this.izinsorgu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.izinsorgu.UseVisualStyleBackColor = true;
+            this.izinsorgu.Click += new System.EventHandler(this.izinsorgu_Click);
+            // 
             // profilfoto
             // 
             this.profilfoto.Image = global::evdekall.Properties.Resources.profile_user;
@@ -157,27 +178,6 @@ namespace evdekall
             this.profilfoto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.profilfoto.TabIndex = 18;
             this.profilfoto.TabStop = false;
-            // 
-            // cikisYap
-            // 
-            this.cikisYap.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cikisYap.FlatAppearance.BorderSize = 0;
-            this.cikisYap.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.cikisYap.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.cikisYap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cikisYap.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cikisYap.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.cikisYap.ImageKey = "logout.png";
-            this.cikisYap.ImageList = this.ımageList1;
-            this.cikisYap.Location = new System.Drawing.Point(213, 326);
-            this.cikisYap.Margin = new System.Windows.Forms.Padding(4);
-            this.cikisYap.Name = "cikisYap";
-            this.cikisYap.Size = new System.Drawing.Size(129, 51);
-            this.cikisYap.TabIndex = 63;
-            this.cikisYap.Text = "Çıkış Yap!";
-            this.cikisYap.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.cikisYap.UseVisualStyleBackColor = true;
-            this.cikisYap.Click += new System.EventHandler(this.cikisYap_Click);
             // 
             // profil
             // 

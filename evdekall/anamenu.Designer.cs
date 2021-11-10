@@ -31,7 +31,6 @@ namespace evdekall
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(anamenu));
-            this.button6 = new System.Windows.Forms.Button();
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.panel = new System.Windows.Forms.Panel();
             this.mmt = new System.Windows.Forms.Label();
@@ -39,51 +38,27 @@ namespace evdekall
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.evdekal = new System.Windows.Forms.Label();
             this.baslik = new System.Windows.Forms.Label();
-            this.KoronaHaber = new System.Windows.Forms.Button();
-            this.AltmisBesUzeri = new System.Windows.Forms.Button();
-            this.YirmiBirAltmisDortArasi = new System.Windows.Forms.Button();
-            this.YirmiYasAlti = new System.Windows.Forms.Button();
-            this.KoronaTablo = new System.Windows.Forms.Button();
             this.tarih = new System.Windows.Forms.Label();
-            this.cikis = new System.Windows.Forms.PictureBox();
-            this.kucult = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.kural14 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.kural14 = new System.Windows.Forms.Button();
+            this.YirmiBirAltmisDortArasi = new System.Windows.Forms.Button();
+            this.YirmiYasAlti = new System.Windows.Forms.Button();
+            this.AltmisBesUzeri = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.cikis = new System.Windows.Forms.PictureBox();
+            this.kucult = new System.Windows.Forms.PictureBox();
+            this.KoronaHaber = new System.Windows.Forms.Button();
+            this.KoronaTablo = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.cikis)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kucult)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.Transparent;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Dosis", 15.75F, System.Drawing.FontStyle.Bold);
-            this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button6.ImageKey = "needle.png";
-            this.button6.ImageList = this.ımageList1;
-            this.button6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button6.Location = new System.Drawing.Point(816, 342);
-            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(134, 116);
-            this.button6.TabIndex = 55;
-            this.button6.Text = "Türkiye Aşı Tablosu";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // ımageList1
             // 
@@ -158,57 +133,95 @@ namespace evdekall
             this.baslik.TabIndex = 46;
             this.baslik.Text = "Korona Virüs Türkiye";
             // 
-            // KoronaHaber
+            // tarih
             // 
-            this.KoronaHaber.BackColor = System.Drawing.Color.Transparent;
-            this.KoronaHaber.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.KoronaHaber.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.KoronaHaber.FlatAppearance.BorderSize = 0;
-            this.KoronaHaber.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.KoronaHaber.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.KoronaHaber.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.KoronaHaber.Font = new System.Drawing.Font("Dosis", 15.75F, System.Drawing.FontStyle.Bold);
-            this.KoronaHaber.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.KoronaHaber.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.KoronaHaber.ImageKey = "newspaper.png";
-            this.KoronaHaber.ImageList = this.ımageList1;
-            this.KoronaHaber.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.KoronaHaber.Location = new System.Drawing.Point(816, 181);
-            this.KoronaHaber.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.KoronaHaber.Name = "KoronaHaber";
-            this.KoronaHaber.Size = new System.Drawing.Size(134, 113);
-            this.KoronaHaber.TabIndex = 45;
-            this.KoronaHaber.Text = "Korona Virüs Haberleri";
-            this.KoronaHaber.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.KoronaHaber.UseVisualStyleBackColor = false;
-            this.KoronaHaber.Click += new System.EventHandler(this.KoronaHaber_Click);
+            this.tarih.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.tarih.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.tarih.Location = new System.Drawing.Point(311, 284);
+            this.tarih.Name = "tarih";
+            this.tarih.Size = new System.Drawing.Size(304, 80);
+            this.tarih.TabIndex = 39;
+            this.tarih.Text = "Güncelleniyor...";
+            this.tarih.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // AltmisBesUzeri
+            // label1
             // 
-            this.AltmisBesUzeri.BackColor = System.Drawing.Color.Transparent;
-            this.AltmisBesUzeri.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AltmisBesUzeri.BackgroundImage")));
-            this.AltmisBesUzeri.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.AltmisBesUzeri.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.AltmisBesUzeri.FlatAppearance.BorderSize = 0;
-            this.AltmisBesUzeri.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.AltmisBesUzeri.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.AltmisBesUzeri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AltmisBesUzeri.Font = new System.Drawing.Font("Dosis", 15.75F, System.Drawing.FontStyle.Bold);
-            this.AltmisBesUzeri.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.AltmisBesUzeri.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.AltmisBesUzeri.Location = new System.Drawing.Point(27, 393);
-            this.AltmisBesUzeri.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.AltmisBesUzeri.Name = "AltmisBesUzeri";
-            this.AltmisBesUzeri.Size = new System.Drawing.Size(176, 45);
-            this.AltmisBesUzeri.TabIndex = 42;
-            this.AltmisBesUzeri.Text = "65 Yaş ve Üzeri";
-            this.AltmisBesUzeri.UseVisualStyleBackColor = false;
-            this.AltmisBesUzeri.Click += new System.EventHandler(this.AltmisBesUzeri_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(-190, 34);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1104, 19);
+            this.label1.TabIndex = 57;
+            this.label1.Text = " BU BİR TEST MESAJIDIR. TEST ETMEK AMAÇLI YAZILMIŞTIR. TEST MESAJINDAN HERKESE ME" +
+    "RHABALAR DİLERİZ. TEKRAR HATIRLATMAK İSTERİM TEST MESAJIDIR :)";
+            // 
+            // timer2
+            // 
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(332, 435);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(289, 34);
+            this.label2.TabIndex = 58;
+            this.label2.Text = "En Yakın Bakkal,Fırın,Eczane,Hastane vb. \r\nYerleri Bulamak İçin Haritaları Kullan" +
+    "abilirsin.\r\n";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Dosis", 15.75F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.ImageKey = "stay-home.png";
+            this.button1.ImageList = this.ımageList1;
+            this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button1.Location = new System.Drawing.Point(-3, 63);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(293, 167);
+            this.button1.TabIndex = 61;
+            this.button1.Text = "Sokağa Çıkma Kısıtlaması Hakkında";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // kural14
+            // 
+            this.kural14.BackColor = System.Drawing.Color.Transparent;
+            this.kural14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.kural14.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.kural14.FlatAppearance.BorderSize = 0;
+            this.kural14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.kural14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.kural14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.kural14.Font = new System.Drawing.Font("Dosis", 15.75F, System.Drawing.FontStyle.Bold);
+            this.kural14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.kural14.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.kural14.ImageKey = "rules.png";
+            this.kural14.ImageList = this.ımageList1;
+            this.kural14.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.kural14.Location = new System.Drawing.Point(688, 94);
+            this.kural14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.kural14.Name = "kural14";
+            this.kural14.Size = new System.Drawing.Size(131, 144);
+            this.kural14.TabIndex = 60;
+            this.kural14.Text = "Korona Virüs Riskine Karşı 14 Kural";
+            this.kural14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.kural14.UseVisualStyleBackColor = false;
+            this.kural14.Click += new System.EventHandler(this.kural14_Click);
             // 
             // YirmiBirAltmisDortArasi
             // 
             this.YirmiBirAltmisDortArasi.BackColor = System.Drawing.Color.Transparent;
-            this.YirmiBirAltmisDortArasi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("YirmiBirAltmisDortArasi.BackgroundImage")));
+            this.YirmiBirAltmisDortArasi.BackgroundImage = global::evdekall.Properties.Resources.gradyan_buton;
             this.YirmiBirAltmisDortArasi.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.YirmiBirAltmisDortArasi.Cursor = System.Windows.Forms.Cursors.Hand;
             this.YirmiBirAltmisDortArasi.FlatAppearance.BorderSize = 0;
@@ -230,7 +243,7 @@ namespace evdekall
             // YirmiYasAlti
             // 
             this.YirmiYasAlti.BackColor = System.Drawing.Color.Transparent;
-            this.YirmiYasAlti.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("YirmiYasAlti.BackgroundImage")));
+            this.YirmiYasAlti.BackgroundImage = global::evdekall.Properties.Resources.gradyan_buton;
             this.YirmiYasAlti.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.YirmiYasAlti.Cursor = System.Windows.Forms.Cursors.Hand;
             this.YirmiYasAlti.DialogResult = System.Windows.Forms.DialogResult.Cancel;
@@ -251,41 +264,74 @@ namespace evdekall
             this.YirmiYasAlti.UseVisualStyleBackColor = false;
             this.YirmiYasAlti.Click += new System.EventHandler(this.YirmiYasAlti_Click);
             // 
-            // KoronaTablo
+            // AltmisBesUzeri
             // 
-            this.KoronaTablo.BackColor = System.Drawing.Color.Transparent;
-            this.KoronaTablo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.KoronaTablo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.KoronaTablo.FlatAppearance.BorderSize = 0;
-            this.KoronaTablo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.KoronaTablo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.KoronaTablo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.KoronaTablo.Font = new System.Drawing.Font("Dosis", 15.75F, System.Drawing.FontStyle.Bold);
-            this.KoronaTablo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.KoronaTablo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.KoronaTablo.ImageKey = "table.png";
-            this.KoronaTablo.ImageList = this.ımageList1;
-            this.KoronaTablo.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.KoronaTablo.Location = new System.Drawing.Point(624, 284);
-            this.KoronaTablo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.KoronaTablo.Name = "KoronaTablo";
-            this.KoronaTablo.Size = new System.Drawing.Size(155, 116);
-            this.KoronaTablo.TabIndex = 44;
-            this.KoronaTablo.Text = "Türkiye Korona Virüs Tablosu";
-            this.KoronaTablo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.KoronaTablo.UseVisualStyleBackColor = false;
-            this.KoronaTablo.Click += new System.EventHandler(this.KoronaTablo_Click);
+            this.AltmisBesUzeri.BackColor = System.Drawing.Color.Transparent;
+            this.AltmisBesUzeri.BackgroundImage = global::evdekall.Properties.Resources.gradyan_buton;
+            this.AltmisBesUzeri.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.AltmisBesUzeri.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AltmisBesUzeri.FlatAppearance.BorderSize = 0;
+            this.AltmisBesUzeri.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.AltmisBesUzeri.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.AltmisBesUzeri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AltmisBesUzeri.Font = new System.Drawing.Font("Dosis", 15.75F, System.Drawing.FontStyle.Bold);
+            this.AltmisBesUzeri.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.AltmisBesUzeri.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.AltmisBesUzeri.Location = new System.Drawing.Point(27, 393);
+            this.AltmisBesUzeri.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.AltmisBesUzeri.Name = "AltmisBesUzeri";
+            this.AltmisBesUzeri.Size = new System.Drawing.Size(176, 45);
+            this.AltmisBesUzeri.TabIndex = 42;
+            this.AltmisBesUzeri.Text = "65 Yaş ve Üzeri";
+            this.AltmisBesUzeri.UseVisualStyleBackColor = false;
+            this.AltmisBesUzeri.Click += new System.EventHandler(this.AltmisBesUzeri_Click);
             // 
-            // tarih
+            // pictureBox2
             // 
-            this.tarih.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tarih.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.tarih.Location = new System.Drawing.Point(311, 284);
-            this.tarih.Name = "tarih";
-            this.tarih.Size = new System.Drawing.Size(304, 80);
-            this.tarih.TabIndex = 39;
-            this.tarih.Text = "Güncelleniyor...";
-            this.tarih.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::evdekall.Properties.Resources.maps;
+            this.pictureBox2.Location = new System.Drawing.Point(436, 367);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(82, 65);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 59;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::evdekall.Properties.Resources.evdekala;
+            this.pictureBox1.Location = new System.Drawing.Point(311, 56);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(304, 122);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 56;
+            this.pictureBox1.TabStop = false;
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Transparent;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Dosis", 15.75F, System.Drawing.FontStyle.Bold);
+            this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button6.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button6.ImageKey = "needle.png";
+            this.button6.ImageList = this.ımageList1;
+            this.button6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.button6.Location = new System.Drawing.Point(816, 342);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(134, 116);
+            this.button6.TabIndex = 55;
+            this.button6.Text = "Türkiye Aşı Tablosu";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // cikis
             // 
@@ -315,101 +361,55 @@ namespace evdekall
             this.kucult.TabStop = false;
             this.kucult.Click += new System.EventHandler(this.kucult_Click);
             // 
-            // pictureBox1
+            // KoronaHaber
             // 
-            this.pictureBox1.Image = global::evdekall.Properties.Resources.evdekala;
-            this.pictureBox1.Location = new System.Drawing.Point(311, 56);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(304, 122);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 56;
-            this.pictureBox1.TabStop = false;
+            this.KoronaHaber.BackColor = System.Drawing.Color.Transparent;
+            this.KoronaHaber.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.KoronaHaber.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.KoronaHaber.FlatAppearance.BorderSize = 0;
+            this.KoronaHaber.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.KoronaHaber.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.KoronaHaber.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.KoronaHaber.Font = new System.Drawing.Font("Dosis", 15.75F, System.Drawing.FontStyle.Bold);
+            this.KoronaHaber.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.KoronaHaber.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.KoronaHaber.ImageKey = "newspaper.png";
+            this.KoronaHaber.ImageList = this.ımageList1;
+            this.KoronaHaber.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.KoronaHaber.Location = new System.Drawing.Point(816, 181);
+            this.KoronaHaber.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.KoronaHaber.Name = "KoronaHaber";
+            this.KoronaHaber.Size = new System.Drawing.Size(134, 113);
+            this.KoronaHaber.TabIndex = 45;
+            this.KoronaHaber.Text = "Korona Virüs Haberleri";
+            this.KoronaHaber.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.KoronaHaber.UseVisualStyleBackColor = false;
+            this.KoronaHaber.Click += new System.EventHandler(this.KoronaHaber_Click);
             // 
-            // label1
+            // KoronaTablo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(-190, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1104, 19);
-            this.label1.TabIndex = 57;
-            this.label1.Text = " BU BİR TEST MESAJIDIR. TEST ETMEK AMAÇLI YAZILMIŞTIR. TEST MESAJINDAN HERKESE ME" +
-    "RHABALAR DİLERİZ. TEKRAR HATIRLATMAK İSTERİM TEST MESAJIDIR :)";
-            // 
-            // timer2
-            // 
-            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(332, 435);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(289, 34);
-            this.label2.TabIndex = 58;
-            this.label2.Text = "En Yakın Bakkal,Fırın,Eczane,Hastane vb. \r\nYerleri Bulamak İçin Haritaları Kullan" +
-    "abilirsin.\r\n";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = global::evdekall.Properties.Resources.maps;
-            this.pictureBox2.Location = new System.Drawing.Point(436, 367);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(82, 65);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 59;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // kural14
-            // 
-            this.kural14.BackColor = System.Drawing.Color.Transparent;
-            this.kural14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.kural14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.kural14.FlatAppearance.BorderSize = 0;
-            this.kural14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.kural14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.kural14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.kural14.Font = new System.Drawing.Font("Dosis", 15.75F, System.Drawing.FontStyle.Bold);
-            this.kural14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.kural14.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.kural14.ImageKey = "rules.png";
-            this.kural14.ImageList = this.ımageList1;
-            this.kural14.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.kural14.Location = new System.Drawing.Point(688, 94);
-            this.kural14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.kural14.Name = "kural14";
-            this.kural14.Size = new System.Drawing.Size(131, 144);
-            this.kural14.TabIndex = 60;
-            this.kural14.Text = "Korona Virüs Riskine Karşı 14 Kural";
-            this.kural14.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.kural14.UseVisualStyleBackColor = false;
-            this.kural14.Click += new System.EventHandler(this.kural14_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Dosis", 15.75F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.ImageKey = "stay-home.png";
-            this.button1.ImageList = this.ımageList1;
-            this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button1.Location = new System.Drawing.Point(-3, 63);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(293, 167);
-            this.button1.TabIndex = 61;
-            this.button1.Text = "Sokağa Çıkma Kısıtlaması Hakkında";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = false;
+            this.KoronaTablo.BackColor = System.Drawing.Color.Transparent;
+            this.KoronaTablo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.KoronaTablo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.KoronaTablo.FlatAppearance.BorderSize = 0;
+            this.KoronaTablo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.KoronaTablo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.KoronaTablo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.KoronaTablo.Font = new System.Drawing.Font("Dosis", 15.75F, System.Drawing.FontStyle.Bold);
+            this.KoronaTablo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.KoronaTablo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.KoronaTablo.ImageKey = "table.png";
+            this.KoronaTablo.ImageList = this.ımageList1;
+            this.KoronaTablo.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.KoronaTablo.Location = new System.Drawing.Point(624, 284);
+            this.KoronaTablo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.KoronaTablo.Name = "KoronaTablo";
+            this.KoronaTablo.Size = new System.Drawing.Size(155, 116);
+            this.KoronaTablo.TabIndex = 44;
+            this.KoronaTablo.Text = "Türkiye Korona Virüs Tablosu";
+            this.KoronaTablo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.KoronaTablo.UseVisualStyleBackColor = false;
+            this.KoronaTablo.Click += new System.EventHandler(this.KoronaTablo_Click);
             // 
             // anamenu
             // 
@@ -442,10 +442,10 @@ namespace evdekall
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EvdeKal";
             this.Load += new System.EventHandler(this.anamenu_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cikis)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.kucult)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
