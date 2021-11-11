@@ -13,7 +13,7 @@ Sistem tarih ve saatine entegre olarak çalışmaktadır.<br>
 ![Uygulama](https://i.hizliresim.com/BhgH2j.png)
 
 # Uygulama Kurulum Linki
-2021.04 Versiyonu İndirmek İçin [Tıklayınız !](https://drive.google.com/file/d/1SrDNURntlv0vA7Y8kPIXRwi1gghb7V_b/view?usp=sharing)<br>
+2021.04 Versiyonu İndirmek İçin [Tıklayınız !](https://drive.google.com/file/d/1d-KjbVAISuuSIFpDxGBihro_HwDfmWkK/view?usp=sharing)<br>
 
 # 2021.04 Güncellemesi
 • Simgeler ve Resimler Değişti.<br>
