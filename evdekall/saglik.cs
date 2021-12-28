@@ -45,6 +45,11 @@ namespace evdekall
             this.Close();
         }
 
+        private void koronaTest_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Testimiz güncelleniyor. Anlayışınız için teşekkür ederiz.");
+        }
+
         private void hareket_MouseUp(object sender, MouseEventArgs e)
         {
             mov = 0;

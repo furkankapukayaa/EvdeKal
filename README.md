@@ -10,10 +10,13 @@ Sistem tarih ve saatine entegre olarak çalışmaktadır.<br>
 Üzerinde geliştirmeler devam etmektedir.**
 
 ## Uygulama İçi Görüntüler (*2021.04* Versiyonuna Aittir!)
-![Uygulama](https://i.hizliresim.com/BhgH2j.png)
+![2021.04](https://i.hizliresim.com/BhgH2j.png)
+## Uygulama İçi Görüntüler (*2021.12* Versiyonuna Aittir!)
+![2021.12](https://i.resmim.net/2021/12/29/SkYyoW.png)
 
 # Uygulama Kurulum Linki
 2021.04 Versiyonu İndirmek İçin [Tıklayınız !](https://drive.google.com/file/d/1d-KjbVAISuuSIFpDxGBihro_HwDfmWkK/view?usp=sharing)<br>
+2021.12 Versiyonu İndirmek İçin [Tıklayınız !](https://drive.google.com/file/d/1G2SPuhl9SH79Ba2GnO36qeKgje7-2sWR/view?usp=sharing)<br>
 
 # 2021.04 Güncellemesi
 • Simgeler ve Resimler Değişti.<br>
@@ -27,3 +30,14 @@ Sistem tarih ve saatine entegre olarak çalışmaktadır.<br>
 • Buton Yakala Oyunu Tam Ekran Yapıldı.<br>
 • AssemblyInfo Ayarları Değiştirildi.<br>
 • Haritalar Eklendi.
+
+# 2021.12 Güncellemesi
+• Simgeler ve Resimler Değişti.<br>
+• Font Değişiklikleri Yapıldı.<br>
+• Form Tasarım ve Boyutlandırılması Yapıldı.<br>
+• Korona riskine karşı 14 kural menüye eklendi.<br>
+• Online korona testi çalışmaları başladı.<br>
+• Profil bölümü yenilendi.<br>
+• Çıkış yap eklendi.<br>
+• Korona virüs menüsü yenilendi.<br>
+• Kurulum ayarları değiştirildi.

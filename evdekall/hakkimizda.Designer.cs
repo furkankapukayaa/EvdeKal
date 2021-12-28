@@ -78,7 +78,7 @@ namespace evdekall
             this.label1.Font = new System.Drawing.Font("Montserrat", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(234, 135);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 25);
+            this.label1.Size = new System.Drawing.Size(104, 29);
             this.label1.TabIndex = 80;
             this.label1.Text = "Evde Kal";
             // 
@@ -88,9 +88,9 @@ namespace evdekall
             this.label2.Font = new System.Drawing.Font("Montserrat", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(211, 160);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(137, 19);
+            this.label2.Size = new System.Drawing.Size(133, 21);
             this.label2.TabIndex = 81;
-            this.label2.Text = "Versiyon : 11.2021";
+            this.label2.Text = "Versiyon : 12.2021";
             // 
             // label3
             // 
@@ -98,7 +98,7 @@ namespace evdekall
             this.label3.Font = new System.Drawing.Font("Montserrat", 11.25F);
             this.label3.Location = new System.Drawing.Point(174, 179);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(219, 19);
+            this.label3.Size = new System.Drawing.Size(220, 21);
             this.label3.TabIndex = 82;
             this.label3.Text = "Yazılımcı : Furkan Kapukaya";
             // 
@@ -108,7 +108,7 @@ namespace evdekall
             this.label4.Font = new System.Drawing.Font("Montserrat", 11.25F);
             this.label4.Location = new System.Drawing.Point(113, 198);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(340, 19);
+            this.label4.Size = new System.Drawing.Size(341, 21);
             this.label4.TabIndex = 83;
             this.label4.Text = "Geri Bildirim : furkankapukayaa@gmail.com";
             // 
@@ -180,7 +180,7 @@ namespace evdekall
             this.label5.Font = new System.Drawing.Font("Montserrat", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(22, 232);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(530, 96);
+            this.label5.Size = new System.Drawing.Size(528, 108);
             this.label5.TabIndex = 88;
             this.label5.Text = resources.GetString("label5.Text");
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;

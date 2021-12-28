@@ -92,3 +92,41 @@ C:\Users\furka\Desktop\EvdeKal\evdekall\bin\Debug\Resources\game-development.png
 C:\Users\furka\Desktop\EvdeKal\evdekall\bin\Debug\Resources\maps.png
 C:\Users\furka\Desktop\EvdeKal\evdekall\obj\Debug\evdekall._14kural.resources
 C:\Users\furka\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.csproj.AssemblyReference.cache
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\bin\Debug\Resources\coronavirus.png
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\bin\Debug\Resources\heartbeat.png
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\bin\Debug\Resources\sport.png
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\bin\Debug\Resources\game-development.png
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\bin\Debug\Resources\maps.png
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\bin\Debug\Evde Kal.exe.config
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\bin\Debug\Evde Kal.exe.manifest
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\bin\Debug\Evde Kal.application
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\bin\Debug\Evde Kal.exe
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\bin\Debug\Evde Kal.pdb
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.csproj.AssemblyReference.cache
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall._14kural.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.altmisbesuzeri.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.anamenu.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.asitablo.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.butonuyakala.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.evdesporyapmak.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.giris.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.girisbildirim.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.hakkimizda.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.harita.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.koronahaber.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.koronatablo.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.oyun.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.profil.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.Properties.Resources.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.saglik.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.spor.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.vki.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.yenimenu.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.yirmivealtmisdortarasi.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.yirmiyasalti.resources
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.csproj.GenerateResource.cache
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\evdekall.csproj.CoreCompileInputs.cache
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\Evde Kal.exe.manifest
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\Evde Kal.application
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\Evde Kal.exe
+C:\Users\Furkan\Desktop\EvdeKal\evdekall\obj\Debug\Evde Kal.pdb

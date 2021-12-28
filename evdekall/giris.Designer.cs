@@ -38,11 +38,11 @@ namespace evdekall
             this.ad = new System.Windows.Forms.TextBox();
             this.hareket = new System.Windows.Forms.Panel();
             this.panel = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.girisYap = new System.Windows.Forms.Button();
             this.cikis = new System.Windows.Forms.PictureBox();
             this.kucult = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.cikis)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.kucult)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -55,7 +55,7 @@ namespace evdekall
             this.label4.Location = new System.Drawing.Point(39, 287);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(64, 28);
+            this.label4.Size = new System.Drawing.Size(62, 32);
             this.label4.TabIndex = 25;
             this.label4.Text = "Yaşınız";
             // 
@@ -70,7 +70,6 @@ namespace evdekall
             this.yas.Name = "yas";
             this.yas.Size = new System.Drawing.Size(204, 22);
             this.yas.TabIndex = 24;
-            this.yas.Text = "20";
             this.yas.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.yas.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.yas_KeyPress);
             // 
@@ -81,7 +80,7 @@ namespace evdekall
             this.label2.Location = new System.Drawing.Point(36, 240);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 28);
+            this.label2.Size = new System.Drawing.Size(78, 32);
             this.label2.TabIndex = 23;
             this.label2.Text = "Soyadınız";
             // 
@@ -97,7 +96,6 @@ namespace evdekall
             this.soyad.Name = "soyad";
             this.soyad.Size = new System.Drawing.Size(186, 22);
             this.soyad.TabIndex = 22;
-            this.soyad.Text = "KAPUKAYA";
             this.soyad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.soyad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.soyad_KeyPress);
             // 
@@ -109,7 +107,7 @@ namespace evdekall
             this.label1.Location = new System.Drawing.Point(36, 193);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 28);
+            this.label1.Size = new System.Drawing.Size(55, 32);
             this.label1.TabIndex = 21;
             this.label1.Text = "Adınız";
             // 
@@ -125,7 +123,6 @@ namespace evdekall
             this.ad.Name = "ad";
             this.ad.Size = new System.Drawing.Size(212, 22);
             this.ad.TabIndex = 18;
-            this.ad.Text = "FURKAN";
             this.ad.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.ad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ad_KeyPress);
             // 
@@ -152,6 +149,18 @@ namespace evdekall
             this.panel.Size = new System.Drawing.Size(369, 22);
             this.panel.TabIndex = 58;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label3.Font = new System.Drawing.Font("Oswald", 18F);
+            this.label3.Location = new System.Drawing.Point(138, 125);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(107, 41);
+            this.label3.TabIndex = 60;
+            this.label3.Text = "GİRİŞ YAP";
+            // 
             // girisYap
             // 
             this.girisYap.BackColor = System.Drawing.Color.Transparent;
@@ -167,7 +176,6 @@ namespace evdekall
             this.girisYap.Name = "girisYap";
             this.girisYap.Size = new System.Drawing.Size(58, 73);
             this.girisYap.TabIndex = 59;
-            this.girisYap.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.girisYap.UseVisualStyleBackColor = false;
             this.girisYap.Click += new System.EventHandler(this.girisYap_Click);
             // 
@@ -209,18 +217,6 @@ namespace evdekall
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label3.Font = new System.Drawing.Font("Oswald", 18F);
-            this.label3.Location = new System.Drawing.Point(138, 125);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 36);
-            this.label3.TabIndex = 60;
-            this.label3.Text = "GİRİŞ YAP";
             // 
             // giris
             // 
