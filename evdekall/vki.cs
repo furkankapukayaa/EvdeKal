@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace evdekall
@@ -31,12 +24,10 @@ namespace evdekall
             double kiloverhesap = ((kilover * (boy * boy)) / 100) / 100;
             if (sonuc <= 18.4)
             {
-
                 listBox1.Items.Add("Vücut İndeksiniz : " + sonuc);
                 listBox1.Items.Add("Zayıf : 0 - 18.4 Kategorisindesiniz.");
                 listBox1.Items.Add(kiloalhesap + " Kilo Alman Gerekiyor");
             }
-
 
             if (sonuc >= 18.5 && sonuc <= 24.9)
             {
@@ -90,8 +81,6 @@ namespace evdekall
                 double sonuc = vihesapla(boy / 100, kilo);
                 vucutindeks(boy, kilo);
             }
-
-
         }
 
         private void vki_Load(object sender, EventArgs e)
@@ -122,7 +111,7 @@ namespace evdekall
             this.Close();
         }
 
-        int mov, movX, movY;
+        private int mov, movX, movY;
 
         private void hareket_MouseUp(object sender, MouseEventArgs e)
         {

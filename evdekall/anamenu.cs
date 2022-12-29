@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace evdekall
@@ -40,7 +33,7 @@ namespace evdekall
             this.WindowState = FormWindowState.Minimized;
         }
 
-        int mov, movX, movY;
+        private int mov, movX, movY;
 
         private void hareket_MouseDown(object sender, MouseEventArgs e)
         {
@@ -48,7 +41,7 @@ namespace evdekall
             movX = e.X;
             movY = e.Y;
         }
-        
+
         private void KoronaHaber_Click(object sender, EventArgs e)
         {
             koronahaber koronahaber = new koronahaber();

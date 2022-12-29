@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace evdekall
@@ -39,7 +32,7 @@ namespace evdekall
             Application.Exit();
         }
 
-        int mov, movX, movY;
+        private int mov, movX, movY;
 
         private void hareket_MouseUp(object sender, MouseEventArgs e)
         {
@@ -62,7 +55,6 @@ namespace evdekall
         {
             string ad, soyad;
             int yas;
-
 
             if (this.ad.Text == string.Empty || this.soyad.Text == string.Empty || this.yas.Text == string.Empty)
             {

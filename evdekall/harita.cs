@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace evdekall
@@ -19,7 +13,6 @@ namespace evdekall
 
         private void harita_Load(object sender, EventArgs e)
         {
-
         }
 
         public void Donustur()
@@ -89,7 +82,7 @@ namespace evdekall
             this.Close();
         }
 
-        int mov, movX, movY;
+        private int mov, movX, movY;
 
         private void hareket_MouseMove(object sender, MouseEventArgs e)
         {

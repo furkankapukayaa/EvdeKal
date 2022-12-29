@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace evdekall
@@ -68,7 +61,7 @@ namespace evdekall
                     {
                         if (DateTime.Now.Minute >= 00 && DateTime.Now.Second >= 00)
                         {
-                           MessageBox.Show("Dışarı Çıkabilirsin.", "Evde Kal");
+                            MessageBox.Show("Dışarı Çıkabilirsin.", "Evde Kal");
                         }
                     }
                     else
@@ -87,7 +80,6 @@ namespace evdekall
                         {
                             MessageBox.Show("Peki Yine de Bu İmkanlar Ana Menüde Seni Bekliyor Olacak", "Evde Kal", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
-
                     }
                 }
             }
@@ -185,10 +177,9 @@ namespace evdekall
                     }
                 }
             }
-
         }
 
-        int mov, movX, movY;
+        private int mov, movX, movY;
 
         private void hareket_MouseUp(object sender, MouseEventArgs e)
         {
